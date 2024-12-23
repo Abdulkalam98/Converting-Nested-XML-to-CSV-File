@@ -1,0 +1,13 @@
+# Coverage configuration file
+[run]
+omit =
+    # omit anything in a site-packages directory anywhere
+    */site-packages/*
+    # omit everything in tests directory
+    test/*
+    # omit this single file
+    setup.py
+    # Omit init.Py file
+    */__init__.py
+	# Omit init.Py file
+    __init__.py

@@ -1,0 +1,78 @@
+include:
+  - project: 'enterprise-ci/gitlab/ci'
+    ref: 'main'
+    file: 'templates/iac/cloud/ETL/glue/glue.pyspark.alz.template.yml'
+
+variables:
+    SONAR_PROJECT_ID: "v$CI_PROJECT_ID"
+    
+    s3PysparkScriptBucket:      "s3://lfg-151324446874-glue-scripts-ue1-bucket001/pyspark/dev/fast/"
+    s3PysparkLibBucket:         "s3://lfg-151324446874-glue-library-ue1-bucket001/pyspark/dev/fast/"
+    s3PysparkConfigBucket:      "s3://lfg-151324446874-glue-config-ue1-bucket001/pyspark/dev/fast/"
+    s3PysparkInputBucket:       "s3://lfg-151324446874-glue-input-ue1-bucket001/pyspark/dev/fast/"
+
+    #s3PysparkScriptBucket_qa:    "s3://lfg-151324446874-glue-scripts-ue1-bucket001/pyspark/qa/"
+    #s3PysparkLibBucket_qa:       "s3://lfg-151324446874-glue-library-ue1-bucket001/pyspark/qa/"
+    #s3PysparkConfigBucket_qa:    "s3://lfg-151324446874-glue-config-ue1-bucket001/pyspark/qa/"
+    #s3PysparkInputBucket_qa:     "s3://lfg-151324446874-glue-input-ue1-bucket001/pyspark/qa/"
+
+    #s3PysparkScriptBucket_uat:   "s3://lfg-151324446874-glue-scripts-ue1-bucket001/pyspark/uat/"
+    #s3PysparkLibBucket_uat:      "s3://lfg-151324446874-glue-library-ue1-bucket001/pyspark/uat/"
+    #s3PysparkConfigBucket_uat:   "s3://lfg-151324446874-glue-config-ue1-bucket001/pyspark/uat/"
+    #s3PysparkInputBucket_uat:    "s3://lfg-151324446874-glue-input-ue1-bucket001/pyspark/uat/"
+
+    #s3PysparkScriptBucket_preprod:   "s3://lfg-151324446874-glue-scripts-ue1-bucket001/pyspark/preprod/"
+    #s3PysparkLibBucket_preprod:      "s3://lfg-151324446874-glue-library-ue1-bucket001/pyspark/preprod/"
+    #s3PysparkConfigBucket_preprod:   "s3://lfg-151324446874-glue-config-ue1-bucket001/pyspark/preprod/"
+    #s3PysparkInputBucket_preprod:    "s3://lfg-151324446874-glue-input-ue1-bucket001/pyspark/preprod/"
+
+    #s3PysparkScriptBucket_prod:  "s3://lfg-620962404398-glue-scripts-ue1-bucket001/pyspark/prod/"
+    #s3PysparkLibBucket_prod:     "s3://lfg-620962404398-glue-library-ue1-bucket001/pyspark/prod/"
+    #s3PysparkConfigBucket_prod:  "s3://lfg-620962404398-glue-config-ue1-bucket001/pyspark/prod/"
+    #s3PysparkInputBucket_prod:   "s3://lfg-620962404398-glue-input-ue1-bucket001/pyspark/prod/"
+
+# #code-coverage job disabled until team prepares test scripts
+coverage:
+  rules:
+  - when: never
+
+sonarqube:
+ needs:
+    - job: enterprise-ci
+    #- job: coverage
+    - job: dep-check
+
+# #fortify job disabled until team create fortify credentials
+# fortify:
+#   rules:
+#   - when: never
+
+Copy/Upload-S3-DEV:
+  extends:
+    - .base/aws/glue/pyspark/s3-upload/sseKms
+  variables:
+    sseKmsId: $sseKmsId_dev
+
+# Copy/Upload-S3-QA:
+#   extends:
+#     - .base/aws/glue/pyspark/s3-upload/sseKms
+#   variables:
+#     sseKmsId: $sseKmsId_qa
+
+# Copy/Upload-S3-UAT:
+#   extends:
+#     - .base/aws/glue/pyspark/s3-upload/sseKms
+#   variables:
+#     sseKmsId: $sseKmsId_uat
+
+# Copy/Upload-S3-PREPROD:
+#   extends:
+#     - .base/aws/glue/pyspark/s3-upload/sseKms
+#   variables:
+#     sseKmsId: $sseKmsId_preprod
+
+# Copy/Upload-S3-Prod:
+#   extends:
+#     - .base/aws/glue/pyspark/s3-upload/sseKms
+#   variables:
+#     sseKmsId: $sseKmsId_prod

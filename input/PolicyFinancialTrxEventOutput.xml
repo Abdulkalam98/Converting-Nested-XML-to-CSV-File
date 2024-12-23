@@ -1,0 +1,2221 @@
+<xml>
+	<Event>PolicyFinancialTrx</Event>
+	<PolicyNumber>LFGIULE2E01_TEST</PolicyNumber>
+	<LOB code="U"/>
+	<TimeStamp>2022-06-08T03:25:55.4571317</TimeStamp>
+	<PayLoad>
+		<TrxHdr>
+			<TrxHdrData>
+				<TrxHdrData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>e65a5bf8-a502-4190-909b-3d657ec16a54</ID>
+					<TrxTypeID id="00000000-0000-0000-0000-000000000300" code="CAN">Anniversary</TrxTypeID>
+					<PolicyHdrID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</PolicyHdrID>
+					<TrxStatus id="00000000-0000-0000-0000-000000000002" code="OLI_FINACTSTAT_COMPLETED">Completed</TrxStatus>
+					<EffectiveDate>2023-06-15T00:00:00.0000000</EffectiveDate>
+					<ProcessedDate>2023-06-15T00:00:00.0000000</ProcessedDate>
+					<ReversalDate>1900-01-01T00:00:00.0000000</ReversalDate>
+					<ReasonCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<TrxCategory id="00000000-0000-0000-0000-000000000007" code="AUTO">Automatic</TrxCategory>
+					<ErrorCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<TrxNum>2091</TrxNum>
+					<OrigTrxNum/>
+					<RebalanceType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<IsQuote id="0">False</IsQuote>
+					<Description/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName>6/15/2023 12:00:00 AM,1/1/1900 12:00:00 AMAnniversaryCompleted</DisplayFieldName>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.2726310</TimeStamp>
+				</TrxHdrData>
+			</TrxHdrData>
+		</TrxHdr>
+		<PolicyHdr>
+			<PolicyHdrData>
+				<PolicyHdrData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</ID>
+					<PolicyPrefix/>
+					<PolicyNumber>LFGIULE2E01_TEST</PolicyNumber>
+					<DTCCDistTrxIDNum/>
+					<Status id="00000000-0000-0000-0000-000000000004" code="22">Active</Status>
+					<IssueState id="00000000-0000-0000-0000-000000000008" code="OLI_USA_CT">Connecticut</IssueState>
+					<IssueCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<AppReceivedDate>1900-01-01T00:00:00.0000000</AppReceivedDate>
+					<ApplicationDate>2021-06-15T00:00:00.0000000</ApplicationDate>
+					<Qualified id="0">False</Qualified>
+					<RothIraInceptionDate>1900-01-01T00:00:00.0000000</RothIraInceptionDate>
+					<ProdModelID id="f536b330-5c6a-49e8-b6a4-687be4115722" code="MIUL22">Lincoln WealthAccelerate IUL</ProdModelID>
+					<LOB id="00000000-0000-0000-0000-000000000004" code="U">Universal Life</LOB>
+					<CompanyID id="00000000-0000-0000-0000-000000000022" code="LNL">Lincoln Financial Group</CompanyID>
+					<ExchangeType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<HasPendingTrx id="1">True</HasPendingTrx>
+					<PolicyEffDate>2021-06-15T00:00:00.0000000</PolicyEffDate>
+					<TamraTestInd id="1">True</TamraTestInd>
+					<IRC7702Test>UL_GPT</IRC7702Test>
+					<TSA id="0">False</TSA>
+					<CommOptionType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<CommIntRateType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<FixedIndexedMode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<ModeRule>0</ModeRule>
+					<QualifiedCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<OriginalPolicyNumber/>
+					<CertificateSuffix/>
+					<ResidentState id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<ExchangeFlag id="0">False</ExchangeFlag>
+					<BrokerageAccount/>
+					<MarketSegment id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<SpecialMarket id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<ContributorType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<PolicySwitch id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<PlanOption/>
+					<PreventMEC id="0">False</PreventMEC>
+					<AppSignCity/>
+					<AppSignState id="00000000-0000-0000-0000-000000000008" code="OLI_USA_CT">Connecticut</AppSignState>
+					<MembershipNum/>
+					<AnnuityType/>
+					<AgentMatching id="0">False</AgentMatching>
+					<SystematicWithdrawal id="0">False</SystematicWithdrawal>
+					<SpecialRequest>DIRECT</SpecialRequest>
+					<TIA90Days id="0">False</TIA90Days>
+					<TIA2Years id="0">False</TIA2Years>
+					<CashOnHand>0</CashOnHand>
+					<EstimatedTransferAmount>0</EstimatedTransferAmount>
+					<FreeLookPeriod>0</FreeLookPeriod>
+					<AppType id="00000000-0000-0000-0000-000000000001" code="FULL">Full Application</AppType>
+					<ReplacementPercent>0</ReplacementPercent>
+					<ModeOfSettlement id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<ExchangeBasis1035>0</ExchangeBasis1035>
+					<ExchangePrem1035Ext>0</ExchangePrem1035Ext>
+					<ExchangePrem1035Int>0</ExchangePrem1035Int>
+					<PriorMECStatus id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<RateLockEffectiveDate>1900-01-01T00:00:00.0000000</RateLockEffectiveDate>
+					<ProductCUSIP/>
+					<FreeLookEndDate>2021-07-05T00:00:00.0000000</FreeLookEndDate>
+					<FreeLookStartDate>1900-01-01T00:00:00.0000000</FreeLookStartDate>
+					<LastProcessedTrxHdrID>e65a5bf8-a502-4190-909b-3d657ec16a54</LastProcessedTrxHdrID>
+					<ReplacementType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<TransferredFairMarketValue>0</TransferredFairMarketValue>
+					<TransferredYTDWithdrawal>0</TransferredYTDWithdrawal>
+					<CreationDate>1900-01-01T00:00:00.0000000</CreationDate>
+					<ExpectedRoR>0</ExpectedRoR>
+					<DistributionLength id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<ExpenseFees>0</ExpenseFees>
+					<ElectronicCommConsent id="0">False</ElectronicCommConsent>
+					<IRC7702ATest>STD</IRC7702ATest>
+					<DCAPercent>0</DCAPercent>
+					<ProductSubType>IUL</ProductSubType>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName>LFGIULE2E01_TEST,6/15/2021 12:00:00 AMActiveConnecticut</DisplayFieldName>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.2616400</TimeStamp>
+					<FormatCashOnHand>$0.00</FormatCashOnHand>
+					<FormatEstimatedTransferAmount>$0.00</FormatEstimatedTransferAmount>
+					<FormatTransferredFairMarketValue>$0.00</FormatTransferredFairMarketValue>
+					<FormatTransferredYTDWithdrawal>$0.00</FormatTransferredYTDWithdrawal>
+					<FormatExpectedRoR>$0.00%</FormatExpectedRoR>
+					<FormatExpenseFees>$0.00%</FormatExpenseFees>
+				</PolicyHdrData>
+			</PolicyHdrData>
+			<PolicyHdrExternalContractRole>
+				<PolicyHdrExternalContractRoleData>
+					<PolicyHdrExternalContractRoleData>
+						<ChangeType>-1</ChangeType>
+						<CoreMessageObjectArray>
+							<HasMessage>False</HasMessage>
+							<Message/>
+							<MessageCode/>
+							<Severity>0</Severity>
+						</CoreMessageObjectArray>
+						<PolicyHdrID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</PolicyHdrID>
+						<ExternalContractID>b5e05d4f-435c-4bd5-be56-57e22cef2a8f</ExternalContractID>
+						<RoleID>00000000-0000-0000-0000-000000000171</RoleID>
+						<ECType/>
+						<Percentage>1</Percentage>
+						<StartDate>2021-06-15T00:00:00.0000000</StartDate>
+						<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+						<DisplayFieldName/>
+						<ImageLoc/>
+						<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+						<TimeStamp>2022-06-08T03:08:38.8514880</TimeStamp>
+					</PolicyHdrExternalContractRoleData>
+				</PolicyHdrExternalContractRoleData>
+				<ExternalContract>
+					<ExternalContractData>
+						<ExternalContractData>
+							<ChangeType>-1</ChangeType>
+							<CoreMessageObjectArray>
+								<HasMessage>False</HasMessage>
+								<Message/>
+								<MessageCode/>
+								<Severity>0</Severity>
+							</CoreMessageObjectArray>
+							<ID>b5e05d4f-435c-4bd5-be56-57e22cef2a8f</ID>
+							<ExternalContractID>21766382</ExternalContractID>
+							<AgentName>Sally Malonie</AgentName>
+							<IsAgentTerminated id="0">False</IsAgentTerminated>
+							<IsAgentLicensed id="0">False</IsAgentLicensed>
+							<IsAgentAppointed id="0">False</IsAgentAppointed>
+							<IsAML id="0">False</IsAML>
+							<ExtContractProfile/>
+							<EntityStatus id="0">False</EntityStatus>
+							<DisplayFieldName/>
+							<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+							<TimeStamp>2022-06-08T03:08:38.8264870</TimeStamp>
+						</ExternalContractData>
+					</ExternalContractData>
+				</ExternalContract>
+				<Role>
+					<RoleData>
+						<RoleData>
+							<ChangeType>2</ChangeType>
+							<CoreMessageObjectArray>
+								<HasMessage>False</HasMessage>
+								<Message/>
+								<MessageCode/>
+								<Severity>0</Severity>
+							</CoreMessageObjectArray>
+							<ID>00000000-0000-0000-0000-000000000171</ID>
+							<Code>37</Code>
+							<Name>OLI_REL_PRIMAGENT</Name>
+							<System id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+							<Description>Primary Writing Agent</Description>
+							<MultipleAllowed id="0">False</MultipleAllowed>
+							<PercentageAddup id="0">False</PercentageAddup>
+							<LifeApplicable id="0">False</LifeApplicable>
+							<AnnApplicable id="0">False</AnnApplicable>
+							<RoleType id="00000000-0000-0000-0000-000000000005" code="Agent">Agent</RoleType>
+							<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+							<ImageLoc/>
+							<EntityStatus id="0">False</EntityStatus>
+							<DisplayFieldName>Primary Writing Agent</DisplayFieldName>
+						</RoleData>
+					</RoleData>
+				</Role>
+			</PolicyHdrExternalContractRole>
+			<PolicyHdrPartyRole>
+				<PolicyHdrPartyRoleData>
+					<PolicyHdrPartyRoleData>
+						<ChangeType>-1</ChangeType>
+						<CoreMessageObjectArray>
+							<HasMessage>False</HasMessage>
+							<Message/>
+							<MessageCode/>
+							<Severity>0</Severity>
+						</CoreMessageObjectArray>
+						<PolicyHdrID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</PolicyHdrID>
+						<PartyID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</PartyID>
+						<RoleID>00000000-0000-0000-0000-000000000143</RoleID>
+						<Percentage>1</Percentage>
+						<Amount/>
+						<Relationship>00000000-0000-0000-0000-000000000202</Relationship>
+						<StartDate>2021-06-15T00:00:00.0000000</StartDate>
+						<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+						<DisplayFieldName/>
+						<ImageLoc/>
+						<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+						<TimeStamp>2022-06-08T03:08:38.5985010</TimeStamp>
+					</PolicyHdrPartyRoleData>
+				</PolicyHdrPartyRoleData>
+				<xml>
+					<Party>
+						<PartyData>
+							<PartyData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</ID>
+								<PartyTypeCode id="00000000-0000-0000-0000-000000000001" code="1">Person</PartyTypeCode>
+								<FullName>Cheryr L Blake</FullName>
+								<GovtID>374657890</GovtID>
+								<GovtIDTC id="00000000-0000-0000-0000-000000000001" code="1">Social Security Number (US)</GovtIDTC>
+								<GovtIDStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<CurrencyCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<PrefComm id="00000000-0000-0000-0000-000000000007" code="0">Unknown</PrefComm>
+								<WithholdingRequiredInd id="0">False</WithholdingRequiredInd>
+								<HomePhone/>
+								<CellPhone/>
+								<BusinessPhone/>
+								<EmailAddress/>
+								<EmailAddress2/>
+								<Fax/>
+								<PreferredLanguage id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<GroupNum>0</GroupNum>
+								<Electronic1099 id="0">False</Electronic1099>
+								<Electronic1099Date>1900-01-01T00:00:00.0000000</Electronic1099Date>
+								<TaxDtlID>ffffffff-ffff-ffff-ffff-ffffffffffff</TaxDtlID>
+								<Pin>7890</Pin>
+								<SecHomePhone/>
+								<HomeFax/>
+								<DoNotCall id="0">False</DoNotCall>
+								<SpouseContractNum/>
+								<ExternalID/>
+								<HumanAPIID/>
+								<LastContactDate>1900-01-01T00:00:00.0000000</LastContactDate>
+								<FedWitholdAllowance>0</FedWitholdAllowance>
+								<StateExemptions>0</StateExemptions>
+								<GovtIDStatDate>1900-01-01T00:00:00.0000000</GovtIDStatDate>
+								<PrivacyOptIn id="0">False</PrivacyOptIn>
+								<PreviousNames/>
+								<HouseholdNumber/>
+								<PriorAddress/>
+								<PriorResYearsAtLocation>0</PriorResYearsAtLocation>
+								<CustomerStatusCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<RequiresReconciliation id="0">False</RequiresReconciliation>
+								<OtherIDTC id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<OtherID/>
+								<IssueState id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<IssueCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ExpirationDate>1900-01-01T00:00:00.0000000</ExpirationDate>
+								<FacebookLink/>
+								<LinkedinLink/>
+								<TwitterLink/>
+								<CustomerID>66258247</CustomerID>
+								<CustomerAccountID>60054947</CustomerAccountID>
+								<CareProviAssesmtRecv id="0">False</CareProviAssesmtRecv>
+								<LicenseNumber/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Cheryr L Blake,374657890</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:56:10.6941820</TimeStamp>
+							</PartyData>
+						</PartyData>
+					</Party>
+					<Person>
+						<PersonData>
+							<PersonData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>7d3c3281-a066-41bd-b9e9-e1750fec577b</ID>
+								<PartyID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</PartyID>
+								<Prefix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<FirstName>Cheryr</FirstName>
+								<MiddleName>L</MiddleName>
+								<LastName>Blake</LastName>
+								<Suffix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SSN/>
+								<BirthDate>1981-05-01T00:00:00.0000000</BirthDate>
+								<Age>41</Age>
+								<Gender id="00000000-0000-0000-0000-000000000001" code="M">Male</Gender>
+								<MarStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SpousesName/>
+								<PaymentFormID id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoFree>1900-01-01T00:00:00.0000000</TobaccoFree>
+								<SmokerStatus id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyMode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyNumber>0</SmokingFrequencyNumber>
+								<DriversLicenseNum/>
+								<DriversLicenseCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<DriverLicStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ProfileUrl/>
+								<BirthCountry id="00000000-0000-0000-0000-000000000001" code="1">United States of America</BirthCountry>
+								<Citizenship id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Occupation/>
+								<EmployerName/>
+								<NetIncomeAmt/>
+								<NetSavingsAmt/>
+								<MaidenName/>
+								<NBQuoteID>ffffffff-ffff-ffff-ffff-ffffffffffff</NBQuoteID>
+								<Salary>0</Salary>
+								<Title/>
+								<RetirementAge>0</RetirementAge>
+								<USStateOfBirth id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<USArmedForces id="0">False</USArmedForces>
+								<DriversLicenseExpiryDate>1900-01-01T00:00:00.0000000</DriversLicenseExpiryDate>
+								<AlienRegistrationNumber/>
+								<Height/>
+								<Weight/>
+								<FraternalChapter/>
+								<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+								<ImageLoc/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Cheryr,L,Blake</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:36.6180290</TimeStamp>
+								<FormatSSN>--</FormatSSN>
+							</PersonData>
+						</PersonData>
+					</Person>
+					<Address>
+						<AddressData>
+							<AddressData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>369a31e7-fc4c-4044-bc56-e72aebeb4889</ID>
+								<AddressType id="00000000-0000-0000-0000-000000000001" code="HO">Home</AddressType>
+								<Line1>110 FIELDCREST ST</Line1>
+								<Line2/>
+								<Line3/>
+								<Line4/>
+								<City>EDISON</City>
+								<Country id="00000000-0000-0000-0000-000000000001" code="1">United States of America</Country>
+								<AddressState id="00000000-0000-0000-0000-000000000008" code="OLI_USA_CT">CT</AddressState>
+								<County id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Zip>08837</Zip>
+								<ZipPlusFour/>
+								<CopyAddressInd id="0">False</CopyAddressInd>
+								<MailingAddressInd id="1">True</MailingAddressInd>
+								<ChangeAddressInd id="0">False</ChangeAddressInd>
+								<OverrideCorrespondenceInd id="0">False</OverrideCorrespondenceInd>
+								<BadAddressInd id="0">False</BadAddressInd>
+								<NCOA id="0">False</NCOA>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>110 FIELDCREST ST,EDISON,08837,FalseHomeUnited States of AmericaCT</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:36.7420310</TimeStamp>
+								<FormatZip>-8837</FormatZip>
+							</AddressData>
+						</AddressData>
+					</Address>
+				</xml>
+				<Role>
+					<RoleData>
+						<RoleData>
+							<ChangeType>2</ChangeType>
+							<CoreMessageObjectArray>
+								<HasMessage>False</HasMessage>
+								<Message/>
+								<MessageCode/>
+								<Severity>0</Severity>
+							</CoreMessageObjectArray>
+							<ID>00000000-0000-0000-0000-000000000143</ID>
+							<Code>8</Code>
+							<Name>OLI_REL_OWNER</Name>
+							<System id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+							<Description>Owner</Description>
+							<MultipleAllowed id="1">True</MultipleAllowed>
+							<PercentageAddup id="1">True</PercentageAddup>
+							<LifeApplicable id="1">True</LifeApplicable>
+							<AnnApplicable id="1">True</AnnApplicable>
+							<RoleType id="00000000-0000-0000-0000-000000000002" code="Owner">Owner</RoleType>
+							<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+							<ImageLoc/>
+							<EntityStatus id="0">False</EntityStatus>
+							<DisplayFieldName>Owner</DisplayFieldName>
+						</RoleData>
+					</RoleData>
+				</Role>
+			</PolicyHdrPartyRole>
+			<PolicyHdrPartyRole>
+				<PolicyHdrPartyRoleData>
+					<PolicyHdrPartyRoleData>
+						<ChangeType>-1</ChangeType>
+						<CoreMessageObjectArray>
+							<HasMessage>False</HasMessage>
+							<Message/>
+							<MessageCode/>
+							<Severity>0</Severity>
+						</CoreMessageObjectArray>
+						<PolicyHdrID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</PolicyHdrID>
+						<PartyID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</PartyID>
+						<RoleID>00000000-0000-0000-0000-000000000156</RoleID>
+						<Percentage>1</Percentage>
+						<Amount/>
+						<Relationship>00000000-0000-0000-0000-000000000202</Relationship>
+						<StartDate>2021-06-15T00:00:00.0000000</StartDate>
+						<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+						<DisplayFieldName/>
+						<ImageLoc/>
+						<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+						<TimeStamp>2022-06-08T03:08:38.5985010</TimeStamp>
+					</PolicyHdrPartyRoleData>
+				</PolicyHdrPartyRoleData>
+				<xml>
+					<Party>
+						<PartyData>
+							<PartyData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</ID>
+								<PartyTypeCode id="00000000-0000-0000-0000-000000000001" code="1">Person</PartyTypeCode>
+								<FullName>Cheryr L Blake</FullName>
+								<GovtID>374657890</GovtID>
+								<GovtIDTC id="00000000-0000-0000-0000-000000000001" code="1">Social Security Number (US)</GovtIDTC>
+								<GovtIDStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<CurrencyCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<PrefComm id="00000000-0000-0000-0000-000000000007" code="0">Unknown</PrefComm>
+								<WithholdingRequiredInd id="0">False</WithholdingRequiredInd>
+								<HomePhone/>
+								<CellPhone/>
+								<BusinessPhone/>
+								<EmailAddress/>
+								<EmailAddress2/>
+								<Fax/>
+								<PreferredLanguage id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<GroupNum>0</GroupNum>
+								<Electronic1099 id="0">False</Electronic1099>
+								<Electronic1099Date>1900-01-01T00:00:00.0000000</Electronic1099Date>
+								<TaxDtlID>ffffffff-ffff-ffff-ffff-ffffffffffff</TaxDtlID>
+								<Pin>7890</Pin>
+								<SecHomePhone/>
+								<HomeFax/>
+								<DoNotCall id="0">False</DoNotCall>
+								<SpouseContractNum/>
+								<ExternalID/>
+								<HumanAPIID/>
+								<LastContactDate>1900-01-01T00:00:00.0000000</LastContactDate>
+								<FedWitholdAllowance>0</FedWitholdAllowance>
+								<StateExemptions>0</StateExemptions>
+								<GovtIDStatDate>1900-01-01T00:00:00.0000000</GovtIDStatDate>
+								<PrivacyOptIn id="0">False</PrivacyOptIn>
+								<PreviousNames/>
+								<HouseholdNumber/>
+								<PriorAddress/>
+								<PriorResYearsAtLocation>0</PriorResYearsAtLocation>
+								<CustomerStatusCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<RequiresReconciliation id="0">False</RequiresReconciliation>
+								<OtherIDTC id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<OtherID/>
+								<IssueState id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<IssueCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ExpirationDate>1900-01-01T00:00:00.0000000</ExpirationDate>
+								<FacebookLink/>
+								<LinkedinLink/>
+								<TwitterLink/>
+								<CustomerID>66258247</CustomerID>
+								<CustomerAccountID>60054947</CustomerAccountID>
+								<CareProviAssesmtRecv id="0">False</CareProviAssesmtRecv>
+								<LicenseNumber/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Cheryr L Blake,374657890</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:56:10.6941820</TimeStamp>
+							</PartyData>
+						</PartyData>
+					</Party>
+					<Person>
+						<PersonData>
+							<PersonData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>7d3c3281-a066-41bd-b9e9-e1750fec577b</ID>
+								<PartyID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</PartyID>
+								<Prefix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<FirstName>Cheryr</FirstName>
+								<MiddleName>L</MiddleName>
+								<LastName>Blake</LastName>
+								<Suffix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SSN/>
+								<BirthDate>1981-05-01T00:00:00.0000000</BirthDate>
+								<Age>41</Age>
+								<Gender id="00000000-0000-0000-0000-000000000001" code="M">Male</Gender>
+								<MarStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SpousesName/>
+								<PaymentFormID id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoFree>1900-01-01T00:00:00.0000000</TobaccoFree>
+								<SmokerStatus id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyMode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyNumber>0</SmokingFrequencyNumber>
+								<DriversLicenseNum/>
+								<DriversLicenseCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<DriverLicStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ProfileUrl/>
+								<BirthCountry id="00000000-0000-0000-0000-000000000001" code="1">United States of America</BirthCountry>
+								<Citizenship id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Occupation/>
+								<EmployerName/>
+								<NetIncomeAmt/>
+								<NetSavingsAmt/>
+								<MaidenName/>
+								<NBQuoteID>ffffffff-ffff-ffff-ffff-ffffffffffff</NBQuoteID>
+								<Salary>0</Salary>
+								<Title/>
+								<RetirementAge>0</RetirementAge>
+								<USStateOfBirth id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<USArmedForces id="0">False</USArmedForces>
+								<DriversLicenseExpiryDate>1900-01-01T00:00:00.0000000</DriversLicenseExpiryDate>
+								<AlienRegistrationNumber/>
+								<Height/>
+								<Weight/>
+								<FraternalChapter/>
+								<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+								<ImageLoc/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Cheryr,L,Blake</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:36.6180290</TimeStamp>
+								<FormatSSN>--</FormatSSN>
+							</PersonData>
+						</PersonData>
+					</Person>
+					<Address>
+						<AddressData>
+							<AddressData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>369a31e7-fc4c-4044-bc56-e72aebeb4889</ID>
+								<AddressType id="00000000-0000-0000-0000-000000000001" code="HO">Home</AddressType>
+								<Line1>110 FIELDCREST ST</Line1>
+								<Line2/>
+								<Line3/>
+								<Line4/>
+								<City>EDISON</City>
+								<Country id="00000000-0000-0000-0000-000000000001" code="1">United States of America</Country>
+								<AddressState id="00000000-0000-0000-0000-000000000008" code="OLI_USA_CT">CT</AddressState>
+								<County id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Zip>08837</Zip>
+								<ZipPlusFour/>
+								<CopyAddressInd id="0">False</CopyAddressInd>
+								<MailingAddressInd id="1">True</MailingAddressInd>
+								<ChangeAddressInd id="0">False</ChangeAddressInd>
+								<OverrideCorrespondenceInd id="0">False</OverrideCorrespondenceInd>
+								<BadAddressInd id="0">False</BadAddressInd>
+								<NCOA id="0">False</NCOA>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>110 FIELDCREST ST,EDISON,08837,FalseHomeUnited States of AmericaCT</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:36.7420310</TimeStamp>
+								<FormatZip>-8837</FormatZip>
+							</AddressData>
+						</AddressData>
+					</Address>
+				</xml>
+				<Role>
+					<RoleData>
+						<RoleData>
+							<ChangeType>2</ChangeType>
+							<CoreMessageObjectArray>
+								<HasMessage>False</HasMessage>
+								<Message/>
+								<MessageCode/>
+								<Severity>0</Severity>
+							</CoreMessageObjectArray>
+							<ID>00000000-0000-0000-0000-000000000156</ID>
+							<Code>31</Code>
+							<Name>OLI_REL_PAYOR</Name>
+							<System id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+							<Description>Payor</Description>
+							<MultipleAllowed id="0">False</MultipleAllowed>
+							<PercentageAddup id="0">False</PercentageAddup>
+							<LifeApplicable id="1">True</LifeApplicable>
+							<AnnApplicable id="0">False</AnnApplicable>
+							<RoleType id="00000000-0000-0000-0000-000000000004" code="Payor">Payor</RoleType>
+							<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+							<ImageLoc/>
+							<EntityStatus id="0">False</EntityStatus>
+							<DisplayFieldName>Payor</DisplayFieldName>
+						</RoleData>
+					</RoleData>
+				</Role>
+			</PolicyHdrPartyRole>
+		</PolicyHdr>
+		<PolicyFundAlloc>
+			<PolicyFundAllocData>
+				<PolicyFundAllocData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>7520ec7d-0e44-4deb-b079-9b39770da751</ID>
+					<PolicyHdrID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</PolicyHdrID>
+					<AllocationType id="00000000-0000-0000-0000-000000000001" code="DP">Default Premium</AllocationType>
+					<EffectiveDate>2021-06-15T00:00:00.0000000</EffectiveDate>
+					<AllocationCategory id="00000000-0000-0000-0000-000000000001" code="REG">Regular Allocations</AllocationCategory>
+					<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+					<TimeStamp>2022-06-08T03:08:37.3724950</TimeStamp>
+				</PolicyFundAllocData>
+			</PolicyFundAllocData>
+		</PolicyFundAlloc>
+		<FundAllocationHdr>
+			<FundAllocationHdrData>
+				<FundAllocationHdrData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>c90a23ab-24bb-486f-8cea-a56a696933a4</ID>
+					<AmountType id="00000000-0000-0000-0000-000000000001" code="PER">Percentage</AmountType>
+					<MoneyType id="00000000-0000-0000-0000-000000000001" code="MT1">Money Type 1</MoneyType>
+					<Sequence>0</Sequence>
+					<IsDefaultPremAllocation id="0">False</IsDefaultPremAllocation>
+					<EffectiveDate>2021-06-15T00:00:00.0000000</EffectiveDate>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+					<TimeStamp>2022-06-08T03:08:37.3784990</TimeStamp>
+				</FundAllocationHdrData>
+			</FundAllocationHdrData>
+		</FundAllocationHdr>
+		<FundAllocationDtl>
+			<FundAllocationDtlData>
+				<FundAllocationDtlData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>e1bfa230-f593-4701-88b8-20b100f9b7bd</ID>
+					<FundAllocationHdrID>c90a23ab-24bb-486f-8cea-a56a696933a4</FundAllocationHdrID>
+					<Fund id="91f920e3-1040-422d-af95-e16e00d9aa25" code="MMIUL_SP_Cap_Pt2Pt">MMIUL SP 500 Pt to Pt Indexed Acct (Cap - 0.25% Floor)</Fund>
+					<Amount>100</Amount>
+					<TransferIndicator id="00000000-0000-0000-0000-000000000001" code="0">N/A</TransferIndicator>
+					<FundCategory id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+					<TimeStamp>2022-06-08T03:08:37.4314980</TimeStamp>
+					<FormatAmount>$100.00</FormatAmount>
+				</FundAllocationDtlData>
+			</FundAllocationDtlData>
+		</FundAllocationDtl>
+		<PolicyPremValues>
+			<PolicyPremValuesData>
+				<PolicyPremValuesData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>fcf78713-eba9-4c67-9773-fcda8af33a8b</ID>
+					<StartDate>2021-06-15T00:00:00.0000000</StartDate>
+					<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+					<TrxHdrID>ffffffff-ffff-ffff-ffff-ffffffffffff</TrxHdrID>
+					<WriteOpt id="00000000-0000-0000-0000-000000000003" code="Update">Update</WriteOpt>
+					<PolicyHdrID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</PolicyHdrID>
+					<Tamra7PayPrem>26005.64</Tamra7PayPrem>
+					<Tamra7PayAcctValue>0</Tamra7PayAcctValue>
+					<TamraTestStartDate>2021-06-15T00:00:00.0000000</TamraTestStartDate>
+					<GuidelineLevelPrem>7017.69</GuidelineLevelPrem>
+					<GuidelineSinglePrem>115964.27</GuidelineSinglePrem>
+					<MinPrem>239.38</MinPrem>
+					<Tamra7PayNSP>170547.1</Tamra7PayNSP>
+					<TamraUnAdj7PayPrem>26005.64</TamraUnAdj7PayPrem>
+					<Premium>10000</Premium>
+					<TargetPrem>5253.75</TargetPrem>
+					<CommTarget>5253.75</CommTarget>
+					<ModalPrem>10000</ModalPrem>
+					<PaymentMode id="00000000-0000-0000-0000-000000000011" code="A">Annually</PaymentMode>
+					<AnnualPrem>0</AnnualPrem>
+					<BillingType id="00000000-0000-0000-0000-000000000003" code="PAC">Pre-authorized Check</BillingType>
+					<SpecialRiskPrem>0</SpecialRiskPrem>
+					<NewPaymentMode id="" code=""/>
+					<NewBillingType id="" code=""/>
+					<TAMRA7PayAnnFactor>6.558081</TAMRA7PayAnnFactor>
+					<TamraRider7Pay>0</TamraRider7Pay>
+					<TamraFaceAmount>375000</TamraFaceAmount>
+					<ModalPremOld>0</ModalPremOld>
+					<PremChangeDate>1900-01-01T00:00:00.0000000</PremChangeDate>
+					<NLGRiderindicator id="0">False</NLGRiderindicator>
+					<NLGPrem>0</NLGPrem>
+					<MinToIssuePrem>10000</MinToIssuePrem>
+					<ModalNLGPrem>0</ModalNLGPrem>
+					<CommAdjTarget>0</CommAdjTarget>
+					<ModalMinPrem>2872.56</ModalMinPrem>
+					<PUARAnnualPrem>0</PUARAnnualPrem>
+					<PUARModalPrem>0</PUARModalPrem>
+					<BaseModalPrem>0</BaseModalPrem>
+					<BaseAnnualPrem>0</BaseAnnualPrem>
+					<TotalAnnualPrem>0</TotalAnnualPrem>
+					<SemiAnnualPrem>0</SemiAnnualPrem>
+					<QuarterlyPrem>0</QuarterlyPrem>
+					<MonthlyPrem>0</MonthlyPrem>
+					<AnnualizedPrem>0</AnnualizedPrem>
+					<InitialPaidToDate>1900-01-01T00:00:00.0000000</InitialPaidToDate>
+					<StepUpInd id="0">False</StepUpInd>
+					<NewStepUpInd id="0">False</NewStepUpInd>
+					<ThrshldPrem>27307.5</ThrshldPrem>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+					<TimeStamp>2022-06-08T03:09:07.4807420</TimeStamp>
+					<FormatTamra7PayPrem>$26,005.64</FormatTamra7PayPrem>
+					<FormatTamra7PayAcctValue>$0.00</FormatTamra7PayAcctValue>
+					<FormatGuidelineLevelPrem>$7,017.69</FormatGuidelineLevelPrem>
+					<FormatGuidelineSinglePrem>$115,964.27</FormatGuidelineSinglePrem>
+					<FormatMinPrem>$239.38</FormatMinPrem>
+					<FormatTamra7PayNSP>$170,547.10</FormatTamra7PayNSP>
+					<FormatTamraUnAdj7PayPrem>$26,005.64</FormatTamraUnAdj7PayPrem>
+					<FormatPremium>$10,000.00</FormatPremium>
+					<FormatTargetPrem>$5,253.75</FormatTargetPrem>
+					<FormatCommTarget>$5,253.75</FormatCommTarget>
+					<FormatModalPrem>$10,000.00</FormatModalPrem>
+					<FormatAnnualPrem>$0.00</FormatAnnualPrem>
+					<FormatTAMRA7PayAnnFactor>$6.56</FormatTAMRA7PayAnnFactor>
+					<FormatTamraFaceAmount>$375,000.00</FormatTamraFaceAmount>
+					<FormatNLGPrem>$0.00</FormatNLGPrem>
+					<FormatMinToIssuePrem>$10,000.00</FormatMinToIssuePrem>
+					<FormatModalNLGPrem>$0.00</FormatModalNLGPrem>
+					<FormatCommAdjTarget>$0.00</FormatCommAdjTarget>
+					<FormatModalMinPrem>$2,872.56</FormatModalMinPrem>
+					<FormatAnnualizedPrem>$0.00</FormatAnnualizedPrem>
+					<FormatThrshldPrem>$27,307.50</FormatThrshldPrem>
+				</PolicyPremValuesData>
+			</PolicyPremValuesData>
+		</PolicyPremValues>
+		<TrxRes>
+			<TrxResData>
+				<TrxResData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>9753c4da-5c8c-4469-aa88-75089d248513</ID>
+					<AmtProcessed>234.13</AmtProcessed>
+					<AmtDisbursed>0</AmtDisbursed>
+					<AltCumUncollected>0</AltCumUncollected>
+					<CumPremium>30000</CumPremium>
+					<TotalBalanceMoved>0</TotalBalanceMoved>
+					<CumUncollected>0</CumUncollected>
+					<FirstYrPrem>10000</FirstYrPrem>
+					<LastPolicyStatus id="00000000-0000-0000-0000-000000000004" code="22">Active</LastPolicyStatus>
+					<LoanAccruedInt>0</LoanAccruedInt>
+					<LoanBalance>0</LoanBalance>
+					<LoanInterest>0</LoanInterest>
+					<LoanIntRate>0.05</LoanIntRate>
+					<LoanPrincipal>0</LoanPrincipal>
+					<MECDate>2400-12-31T00:00:00.0000000</MECDate>
+					<MinPremTestPassed id="1">True</MinPremTestPassed>
+					<PaidToDate>1900-01-01T00:00:00.0000000</PaidToDate>
+					<PolicyStatus id="00000000-0000-0000-0000-000000000004" code="22">Active</PolicyStatus>
+					<PolicyYear>3</PolicyYear>
+					<TotalChrgAmt>234.13</TotalChrgAmt>
+					<YTDPremium>10000</YTDPremium>
+					<LOB id="00000000-0000-0000-0000-000000000004" code="U">Universal Life</LOB>
+					<TrxHdrID>e65a5bf8-a502-4190-909b-3d657ec16a54</TrxHdrID>
+					<Excess>0</Excess>
+					<Interest>0</Interest>
+					<LoanInterestDate>2023-06-15T00:00:00.0000000</LoanInterestDate>
+					<LoanPayoff>0</LoanPayoff>
+					<EffectiveDateMonth>0</EffectiveDateMonth>
+					<GrossSurrValue>22552.12</GrossSurrValue>
+					<SurrenderCharge>10923.75</SurrenderCharge>
+					<NetSurrValue>11628.37</NetSurrValue>
+					<AcctValue>22552.12</AcctValue>
+					<LastEffectiveDate>2023-06-15T00:00:00.0000000</LastEffectiveDate>
+					<NetAmtApplied>0</NetAmtApplied>
+					<WaiverInEffect>0</WaiverInEffect>
+					<AltTotalChrgAmt>0</AltTotalChrgAmt>
+					<GuarTotalChrgAmt>0</GuarTotalChrgAmt>
+					<PDFValue>0</PDFValue>
+					<TrxLoanInt>0</TrxLoanInt>
+					<TrxLoanPrincipal>0</TrxLoanPrincipal>
+					<Gain>0</Gain>
+					<CommissionablePrem>0</CommissionablePrem>
+					<CommissionableXSPrem>0</CommissionableXSPrem>
+					<PDFIntCredited>0</PDFIntCredited>
+					<PDFCalYTDIntCred>0</PDFCalYTDIntCred>
+					<PDFEOCY1099Int>0</PDFEOCY1099Int>
+					<LoanAcctVal>0</LoanAcctVal>
+					<InterestBilledAmt>0</InterestBilledAmt>
+					<PDFCalcYTDIntCred>0</PDFCalcYTDIntCred>
+					<PDFTrxAmt>0</PDFTrxAmt>
+					<TrxLoanIntPaid>0</TrxLoanIntPaid>
+					<TrxLoanPrincipalPaid>0</TrxLoanPrincipalPaid>
+					<CurrCreditingRate>0</CurrCreditingRate>
+					<BonusCreditingRate>0</BonusCreditingRate>
+					<BonusInterest>0</BonusInterest>
+					<AccumulationType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<YTDBonusInterest>0</YTDBonusInterest>
+					<PrefLoanAmount>0</PrefLoanAmount>
+					<PrefLoanPrincipal>0</PrefLoanPrincipal>
+					<PrefLoanAccruedInt>0</PrefLoanAccruedInt>
+					<PrefLoanIntRate>0</PrefLoanIntRate>
+					<LoanCreditRate>0.05</LoanCreditRate>
+					<PrefLoanCreditRate>0</PrefLoanCreditRate>
+					<PrefLoanAcctValue>0</PrefLoanAcctValue>
+					<TrxPrefLoanIntPaid>0</TrxPrefLoanIntPaid>
+					<TrxPrefLoanPrincipalPaid>0</TrxPrefLoanPrincipalPaid>
+					<YTDInterestEarned>0</YTDInterestEarned>
+					<PriorPolYrInterest>0</PriorPolYrInterest>
+					<PriorPolYrWithdrawals>0</PriorPolYrWithdrawals>
+					<TotalLoanIndebtedness>0</TotalLoanIndebtedness>
+					<LoanAccruedIntEOY>0</LoanAccruedIntEOY>
+					<PrefLoanAccrIntEOY>0</PrefLoanAccrIntEOY>
+					<TotalLoanBalance>0</TotalLoanBalance>
+					<TotalLoanPrincipal>0</TotalLoanPrincipal>
+					<TotalLoanAccruedInt>0</TotalLoanAccruedInt>
+					<TotalLoanAccruedIntEOY>0</TotalLoanAccruedIntEOY>
+					<TotalLoanAcctVal>0</TotalLoanAcctVal>
+					<PrefLoanAccruedIntEOY>0</PrefLoanAccruedIntEOY>
+					<PrefLoanBalance>0</PrefLoanBalance>
+					<OverShortPayment>0</OverShortPayment>
+					<TrxLoanAcctRel>0</TrxLoanAcctRel>
+					<TrxPrefLoanAcctRel>0</TrxPrefLoanAcctRel>
+					<PartSurrPercentRem>0</PartSurrPercentRem>
+					<NFOStep>0</NFOStep>
+					<LoanSpread>0</LoanSpread>
+					<GenAcctValue>0</GenAcctValue>
+					<RenewalDate>2999-12-31T00:00:00.0000000</RenewalDate>
+					<IndexValue>0</IndexValue>
+					<IndexValuePeriod>0</IndexValuePeriod>
+					<IndexValuePrior>0</IndexValuePrior>
+					<RemPremium>0</RemPremium>
+					<RemainingPremiums>0</RemainingPremiums>
+					<GrossDeathBenefit>375000</GrossDeathBenefit>
+					<LoanFreeAcctVal>0</LoanFreeAcctVal>
+					<PrefLoanAcctAccruedInt>0</PrefLoanAcctAccruedInt>
+					<LoanAcctAccruedInt>0</LoanAcctAccruedInt>
+					<TotalLoanAcctAccruedInt>0</TotalLoanAcctAccruedInt>
+					<LoanFreeAcctAccruedInt>0</LoanFreeAcctAccruedInt>
+					<WithdrawalBasisAcctValue>0</WithdrawalBasisAcctValue>
+					<DepAnnivDate>1900-01-01T00:00:00.0000000</DepAnnivDate>
+					<MaxAnniversaryAV>0</MaxAnniversaryAV>
+					<PriorTotalMthlyDedAmt>234.13</PriorTotalMthlyDedAmt>
+					<SysAllocStatus>SA-Inactive</SysAllocStatus>
+					<LoanMethod/>
+					<ClaimInterestPaid>0</ClaimInterestPaid>
+					<MinAcctValue>0</MinAcctValue>
+					<MVAAmount>0</MVAAmount>
+					<LienInterestDate>2023-06-15T00:00:00.0000000</LienInterestDate>
+					<LienPrincipal>0</LienPrincipal>
+					<LienAccruedInt>0</LienAccruedInt>
+					<LienIntRate>0</LienIntRate>
+					<LienAccruedIntEOY>0</LienAccruedIntEOY>
+					<LienPayoff>0</LienPayoff>
+					<LienBalance>0</LienBalance>
+					<LoanBalanceAvg>0</LoanBalanceAvg>
+					<YTDLoanAmt>0</YTDLoanAmt>
+					<LoanPayoffDate>1900-01-01T00:00:00.0000000</LoanPayoffDate>
+					<CumInterest>0</CumInterest>
+					<MonthsOutOfForce>0</MonthsOutOfForce>
+					<CostBasis>0</CostBasis>
+					<TotalStateWithholding>0</TotalStateWithholding>
+					<TotalFederalWithholding>0</TotalFederalWithholding>
+					<StartingAcctValue>0</StartingAcctValue>
+					<TrxLienIntPaid>0</TrxLienIntPaid>
+					<TrxLienPrincipalPaid>0</TrxLienPrincipalPaid>
+					<NetNetAmt>0</NetNetAmt>
+					<MailCharges>0</MailCharges>
+					<LastSchTrxDate>2021-06-15T00:00:00.0000000</LastSchTrxDate>
+					<NextSchTrxDate>2102-06-15T00:00:00.0000000</NextSchTrxDate>
+					<PendingIncreaseAmt>0</PendingIncreaseAmt>
+					<TotalLocalWithholding>0</TotalLocalWithholding>
+					<PriorAnniversaryDate>2023-06-15T00:00:00.0000000</PriorAnniversaryDate>
+					<PendingBillingAmount>0</PendingBillingAmount>
+					<CumAccelBenAmtPd>0</CumAccelBenAmtPd>
+					<MaxAccelBenAmtRemaining>250000</MaxAccelBenAmtRemaining>
+					<DthBenAmtRemaining>0</DthBenAmtRemaining>
+					<TerminationDate>1900-01-01T00:00:00.0000000</TerminationDate>
+					<BonusValue>0</BonusValue>
+					<CYTDLTCBenAmt>0</CYTDLTCBenAmt>
+					<CumLTCBenAmt>0</CumLTCBenAmt>
+					<MaxLTCBenAmtRem>0</MaxLTCBenAmtRem>
+					<PDFIntRate>0</PDFIntRate>
+					<PendingSweepAmt>0</PendingSweepAmt>
+					<ConvCreditAmt>0</ConvCreditAmt>
+					<AtIssuePlannedPremiums>0</AtIssuePlannedPremiums>
+					<AtIssuePlannedAcctValue>0</AtIssuePlannedAcctValue>
+					<AtIssuePlannedRetireValue>0</AtIssuePlannedRetireValue>
+					<NextAnniversaryDate>1900-01-01T00:00:00.0000000</NextAnniversaryDate>
+					<NetDeathBenefit>375000</NetDeathBenefit>
+					<QTDLoans>0</QTDLoans>
+					<QTDLoanPrncplPaid>0</QTDLoanPrncplPaid>
+					<QTDLoanIntPaid>0</QTDLoanIntPaid>
+					<QTDLoanIntCredited>0</QTDLoanIntCredited>
+					<MaxABRBenAmt>250000</MaxABRBenAmt>
+					<MaxCIRBenAmt>300000</MaxCIRBenAmt>
+					<MaxCHRBenAmt>375000</MaxCHRBenAmt>
+					<MaxCIRBenAmtRem>300000</MaxCIRBenAmtRem>
+					<MaxCHRBenAmtRem>375000</MaxCHRBenAmtRem>
+					<CumABRBenAmt>0</CumABRBenAmt>
+					<CumCIRBenAmt>0</CumCIRBenAmt>
+					<CumCHRBenAmt>0</CumCHRBenAmt>
+					<BaseFaceAtInitAccel>0</BaseFaceAtInitAccel>
+					<DCAPercent>0</DCAPercent>
+					<PDFCode/>
+					<LoanAcctCode/>
+					<LoanMethodID/>
+					<ABRCount>0</ABRCount>
+					<DiscountRate>0</DiscountRate>
+					<ReductionRatio>0</ReductionRatio>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName>234.13,0Active</DisplayFieldName>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.3896340</TimeStamp>
+					<FormatAmtProcessed>$234.13</FormatAmtProcessed>
+					<FormatAmtDisbursed>$0.00</FormatAmtDisbursed>
+					<FormatAltCumUncollected>$0.00</FormatAltCumUncollected>
+					<FormatCumPremium>$30,000.00</FormatCumPremium>
+					<FormatTotalBalanceMoved>$0.00</FormatTotalBalanceMoved>
+					<FormatCumUncollected>$0.00</FormatCumUncollected>
+					<FormatFirstYrPrem>$10,000.00</FormatFirstYrPrem>
+					<FormatLoanAccruedInt>$0.00</FormatLoanAccruedInt>
+					<FormatLoanBalance>$0.00</FormatLoanBalance>
+					<FormatLoanInterest>$0.00</FormatLoanInterest>
+					<FormatLoanIntRate>$0.05%</FormatLoanIntRate>
+					<FormatLoanPrincipal>$0.00</FormatLoanPrincipal>
+					<FormatTotalChrgAmt>$234.13</FormatTotalChrgAmt>
+					<FormatYTDPremium>$10,000.00</FormatYTDPremium>
+					<FormatExcess>$0.00</FormatExcess>
+					<FormatLoanPayoff>$0.00</FormatLoanPayoff>
+					<FormatGrossSurrValue>$22,552.12</FormatGrossSurrValue>
+					<FormatSurrenderCharge>$10,923.75</FormatSurrenderCharge>
+					<FormatNetSurrValue>$11,628.37</FormatNetSurrValue>
+					<FormatAcctValue>$22,552.12</FormatAcctValue>
+					<FormatNetAmtApplied>$0.00</FormatNetAmtApplied>
+					<FormatAltTotalChrgAmt>$0.00</FormatAltTotalChrgAmt>
+					<FormatGuarTotalChrgAmt>$0.00</FormatGuarTotalChrgAmt>
+					<FormatPDFValue>$0.00</FormatPDFValue>
+					<FormatTrxLoanInt>$0.00</FormatTrxLoanInt>
+					<FormatTrxLoanPrincipal>$0.00</FormatTrxLoanPrincipal>
+					<FormatGain>$0.00</FormatGain>
+					<FormatCommissionablePrem>$0.00</FormatCommissionablePrem>
+					<FormatCommissionableXSPrem>$0.00</FormatCommissionableXSPrem>
+					<FormatPDFIntCredited>$0.00</FormatPDFIntCredited>
+					<FormatPDFCalYTDIntCred>$0.00</FormatPDFCalYTDIntCred>
+					<FormatPDFEOCY1099Int>$0.00</FormatPDFEOCY1099Int>
+					<FormatLoanAcctVal>$0.00</FormatLoanAcctVal>
+					<FormatInterestBilledAmt>$0.00</FormatInterestBilledAmt>
+					<FormatPDFCalcYTDIntCred>$0.00</FormatPDFCalcYTDIntCred>
+					<FormatPDFTrxAmt>$0.00</FormatPDFTrxAmt>
+					<FormatTrxLoanIntPaid>$0.00</FormatTrxLoanIntPaid>
+					<FormatTrxLoanPrincipalPaid>$0.00</FormatTrxLoanPrincipalPaid>
+					<FormatBonusInterest>$0.00</FormatBonusInterest>
+					<FormatYTDBonusInterest>$0.00</FormatYTDBonusInterest>
+					<FormatPrefLoanAmount>$0.00</FormatPrefLoanAmount>
+					<FormatPrefLoanPrincipal>$0.00</FormatPrefLoanPrincipal>
+					<FormatPrefLoanAccruedInt>$0.00</FormatPrefLoanAccruedInt>
+					<FormatLoanCreditRate>$0.05%</FormatLoanCreditRate>
+					<FormatPrefLoanAcctValue>$0.00</FormatPrefLoanAcctValue>
+					<FormatTrxPrefLoanIntPaid>$0.00</FormatTrxPrefLoanIntPaid>
+					<FormatTrxPrefLoanPrincipalPaid>$0.00</FormatTrxPrefLoanPrincipalPaid>
+					<FormatYTDInterestEarned>$0.00</FormatYTDInterestEarned>
+					<FormatPriorPolYrInterest>$0.00</FormatPriorPolYrInterest>
+					<FormatPriorPolYrWithdrawals>$0.00</FormatPriorPolYrWithdrawals>
+					<FormatTotalLoanIndebtedness>$0.00</FormatTotalLoanIndebtedness>
+					<FormatLoanAccruedIntEOY>$0.00</FormatLoanAccruedIntEOY>
+					<FormatPrefLoanAccrIntEOY>$0.00</FormatPrefLoanAccrIntEOY>
+					<FormatTotalLoanBalance>$0.00</FormatTotalLoanBalance>
+					<FormatTotalLoanPrincipal>$0.00</FormatTotalLoanPrincipal>
+					<FormatTotalLoanAccruedInt>$0.00</FormatTotalLoanAccruedInt>
+					<FormatTotalLoanAccruedIntEOY>$0.00</FormatTotalLoanAccruedIntEOY>
+					<FormatTotalLoanAcctVal>$0.00</FormatTotalLoanAcctVal>
+					<FormatPrefLoanAccruedIntEOY>$0.00</FormatPrefLoanAccruedIntEOY>
+					<FormatPrefLoanBalance>$0.00</FormatPrefLoanBalance>
+					<FormatOverShortPayment>$0.00</FormatOverShortPayment>
+					<FormatTrxLoanAcctRel>$0.00</FormatTrxLoanAcctRel>
+					<FormatTrxPrefLoanAcctRel>$0.00</FormatTrxPrefLoanAcctRel>
+					<FormatPartSurrPercentRem>$0.00</FormatPartSurrPercentRem>
+					<FormatLoanSpread>$0.00</FormatLoanSpread>
+					<FormatGenAcctValue>$0.00</FormatGenAcctValue>
+					<FormatRemPremium>$0.00</FormatRemPremium>
+					<FormatRemainingPremiums>$0.00</FormatRemainingPremiums>
+					<FormatGrossDeathBenefit>$375,000.00</FormatGrossDeathBenefit>
+					<FormatLoanFreeAcctVal>$0.00</FormatLoanFreeAcctVal>
+					<FormatWithdrawalBasisAcctValue>$0.00</FormatWithdrawalBasisAcctValue>
+					<FormatMaxAnniversaryAV>$0.00</FormatMaxAnniversaryAV>
+					<FormatPriorTotalMthlyDedAmt>$234.13</FormatPriorTotalMthlyDedAmt>
+					<FormatMinAcctValue>$0.00</FormatMinAcctValue>
+					<FormatMVAAmount>$0.00</FormatMVAAmount>
+					<FormatLienPrincipal>$0.00</FormatLienPrincipal>
+					<FormatLienAccruedInt>$0.00</FormatLienAccruedInt>
+					<FormatLienIntRate>$0.00%</FormatLienIntRate>
+					<FormatLienAccruedIntEOY>$0.00</FormatLienAccruedIntEOY>
+					<FormatLienPayoff>$0.00</FormatLienPayoff>
+					<FormatLienBalance>$0.00</FormatLienBalance>
+					<FormatYTDLoanAmt>$0.00</FormatYTDLoanAmt>
+					<FormatCumInterest>$0.00</FormatCumInterest>
+					<FormatCostBasis>$0.00</FormatCostBasis>
+					<FormatTotalStateWithholding>$0.00</FormatTotalStateWithholding>
+					<FormatTotalFederalWithholding>$0.00</FormatTotalFederalWithholding>
+					<FormatStartingAcctValue>$0.00</FormatStartingAcctValue>
+					<FormatTrxLienIntPaid>$0.00</FormatTrxLienIntPaid>
+					<FormatTrxLienPrincipalPaid>$0.00</FormatTrxLienPrincipalPaid>
+					<FormatNetNetAmt>$0.00</FormatNetNetAmt>
+					<FormatMailCharges>$0.00</FormatMailCharges>
+					<FormatPendingIncreaseAmt>$0.00</FormatPendingIncreaseAmt>
+					<FormatPendingBillingAmount>$0.00</FormatPendingBillingAmount>
+					<FormatCumAccelBenAmtPd>$0.00</FormatCumAccelBenAmtPd>
+					<FormatMaxAccelBenAmtRemaining>$250,000.00</FormatMaxAccelBenAmtRemaining>
+					<FormatDthBenAmtRemaining>$0.00</FormatDthBenAmtRemaining>
+					<FormatBonusValue>$0.00</FormatBonusValue>
+					<FormatCYTDLTCBenAmt>$0.00</FormatCYTDLTCBenAmt>
+					<FormatCumLTCBenAmt>$0.00</FormatCumLTCBenAmt>
+					<FormatMaxLTCBenAmtRem>$0.00</FormatMaxLTCBenAmtRem>
+					<FormatPDFIntRate>$0.00%</FormatPDFIntRate>
+					<FormatPendingSweepAmt>$0.00</FormatPendingSweepAmt>
+					<FormatAtIssuePlannedPremiums>$0.00</FormatAtIssuePlannedPremiums>
+					<FormatAtIssuePlannedAcctValue>$0.00</FormatAtIssuePlannedAcctValue>
+					<FormatAtIssuePlannedRetireValue>$0.00</FormatAtIssuePlannedRetireValue>
+					<FormatNetDeathBenefit>$375,000.00</FormatNetDeathBenefit>
+					<FormatQTDLoans>$0.00</FormatQTDLoans>
+					<FormatQTDLoanPrncplPaid>$0.00</FormatQTDLoanPrncplPaid>
+					<FormatQTDLoanIntPaid>$0.00</FormatQTDLoanIntPaid>
+					<FormatQTDLoanIntCredited>$0.00</FormatQTDLoanIntCredited>
+					<FormatMaxABRBenAmt>$250,000.00</FormatMaxABRBenAmt>
+					<FormatMaxCIRBenAmt>$300,000.00</FormatMaxCIRBenAmt>
+					<FormatMaxCHRBenAmt>$375,000.00</FormatMaxCHRBenAmt>
+					<FormatMaxCIRBenAmtRem>$300,000.00</FormatMaxCIRBenAmtRem>
+					<FormatMaxCHRBenAmtRem>$375,000.00</FormatMaxCHRBenAmtRem>
+					<FormatCumABRBenAmt>$0.00</FormatCumABRBenAmt>
+					<FormatCumCIRBenAmt>$0.00</FormatCumCIRBenAmt>
+					<FormatCumCHRBenAmt>$0.00</FormatCumCHRBenAmt>
+					<FormatBaseFaceAtInitAccel>$0.00</FormatBaseFaceAtInitAccel>
+				</TrxResData>
+			</TrxResData>
+		</TrxRes>
+		<FundResultsHdr>
+			<FundResultsHdrData>
+				<FundResultsHdrData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</ID>
+					<FundAllocationHdrID>a3ed4651-ed5c-4acb-9c32-3c51d2804db7</FundAllocationHdrID>
+					<FundBalance>22552.12</FundBalance>
+					<FixedFundBalance>22552.12</FixedFundBalance>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.5836220</TimeStamp>
+					<FormatFundBalance>$22,552.12</FormatFundBalance>
+					<FormatFixedFundBalance>$22,552.12</FormatFixedFundBalance>
+				</FundResultsHdrData>
+			</FundResultsHdrData>
+		</FundResultsHdr>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>f107729f-7b63-4e03-bd5b-79d681d335fd</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="2eb3b571-fe23-47bf-9796-ccae2040351b" code="AmountToApply">AmountToApply</EntityDetail>
+					<Value>-234.13</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6226260</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>02ec4f9c-de3b-45bc-add5-c9a2bd6ad274</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="919d1b30-94b6-49ce-9feb-b86c3d57da89" code="SurrenderChrg">Surrender Charge</EntityDetail>
+					<Value>10923.75</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6256250</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>d478c337-b498-4a13-a155-943ba3148be5</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="8f4769e2-f98f-4cf6-be13-c1db009cc75a" code="CurrAdminChrg">Current Admin Charge</EntityDetail>
+					<Value>-6</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6276220</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>eb4b339b-e2a6-4dbc-8ba5-9c9b202c8a62</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="4d35dc1c-ca72-4e4c-9926-9fa9ff33e805" code="TrxRes">Results</EntityHeader>
+					<EntityDetail id="457fccf0-a4b7-4c80-b952-1a8e7c1f8b13" code="AmtProcessed">Amount Processed</EntityDetail>
+					<Value>234.13</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6286230</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>c9b09c40-6ca5-42fd-929a-4990cac6412c</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="df816f87-06d8-488e-b3c5-63c2dbcfe6eb" code="BaseCurrCOIChrg">Base Current COI Charge</EntityDetail>
+					<Value>-68.15</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6306260</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>fdbd09c2-c442-4693-88f5-422927d9d915</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="d435c3a9-bc23-4225-94c8-90b4a6b3325b" code="CurrPer1000Chrg">CurrPer1000 Charge</EntityDetail>
+					<Value>-141.75</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6336200</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>6fded30c-151a-45da-b330-ba5c269fee63</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="8f4769e2-f98f-4cf6-be13-c1db009cc75a" code="CurrAdminChrg">Current Admin Charge</EntityDetail>
+					<Value>-6</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6346210</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>a36219c9-63a6-48ef-a47f-a3951ae5897e</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="df816f87-06d8-488e-b3c5-63c2dbcfe6eb" code="BaseCurrCOIChrg">Base Current COI Charge</EntityDetail>
+					<Value>-68.15</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6366220</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>0ff67113-91df-405f-a7f9-480bd4158af0</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="d435c3a9-bc23-4225-94c8-90b4a6b3325b" code="CurrPer1000Chrg">CurrPer1000 Charge</EntityDetail>
+					<Value>-141.75</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6386170</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsVal>
+			<FundResultsValData>
+				<FundResultsValData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>f2198afc-da6e-4912-9290-2161554a0f65</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<EffectiveDate>1900-01-01T00:00:00.0000000</EffectiveDate>
+					<EntityHeader id="f3bc1bef-93c4-47a3-b40f-a1844040d9f6" code="TempCalcValues">Temporary Calc Values</EntityHeader>
+					<EntityDetail id="03408aef-54f6-448f-b6c0-13ea2e174a60" code="CurrAVChrg">Current AV Charge</EntityDetail>
+					<Value>-18.23</Value>
+					<FundType>00000000-0000-0000-0000-000000000005</FundType>
+					<GLCompanyCode/>
+					<GLFundCode/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6406190</TimeStamp>
+				</FundResultsValData>
+			</FundResultsValData>
+		</FundResultsVal>
+		<FundResultsDtl>
+			<FundResultsDtlData>
+				<FundResultsDtlData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>817b8975-ccd6-4061-b27e-2aa8064586db</ID>
+					<FundResultsHdrID>e5fe1ee0-16c8-4fe0-b0a3-6b15de7c74ae</FundResultsHdrID>
+					<Fund id="57334bf3-53a6-4e6f-a5c8-165083ecc1a6" code="MMIUL_HA">MMIUL Holding Account</Fund>
+					<OrigDepositDate>2023-06-15T00:00:00.0000000</OrigDepositDate>
+					<OrigDeposit>36772.5</OrigDeposit>
+					<DepositDate>2023-06-15T00:00:00.0000000</DepositDate>
+					<RenewalDate>2999-12-31T00:00:00.0000000</RenewalDate>
+					<AmountProcessed>-234.13</AmountProcessed>
+					<UnitsProcessed>0</UnitsProcessed>
+					<BalanceAllocation>1</BalanceAllocation>
+					<FundBalance>22552.12</FundBalance>
+					<UnitBalance>0</UnitBalance>
+					<InterestRate>0.02</InterestRate>
+					<GainLoss>0</GainLoss>
+					<UnitValue>0</UnitValue>
+					<FundStreamID>b9002a70-f75d-415d-9ecc-a4443ca689a9</FundStreamID>
+					<FundCategory id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<FundType id="00000000-0000-0000-0000-000000000005" code="PORT">Portfolio</FundType>
+					<NextDepAnnivDate>1900-01-01T00:00:00.0000000</NextDepAnnivDate>
+					<MVASpreadAtDeposit>0</MVASpreadAtDeposit>
+					<IndexPartRate>0</IndexPartRate>
+					<IndexMinPartRate>0</IndexMinPartRate>
+					<IndexFloor>0</IndexFloor>
+					<IndexCap>0</IndexCap>
+					<IndexMinCap>0</IndexMinCap>
+					<IndexValuePrior>0</IndexValuePrior>
+					<IndexValue>0</IndexValue>
+					<IndexThreshold>0</IndexThreshold>
+					<IndexBasis>0</IndexBasis>
+					<IndexCredit>0</IndexCredit>
+					<IndexCreditRate>0</IndexCreditRate>
+					<Interest>0</Interest>
+					<CumInterest>0</CumInterest>
+					<IndexSpread>0</IndexSpread>
+					<IndexMaxSpread>0</IndexMaxSpread>
+					<FundName>MMIUL Holding Account</FundName>
+					<BonusInterestRate>0</BonusInterestRate>
+					<BonusInterest>0</BonusInterest>
+					<ReversalGainLoss>0</ReversalGainLoss>
+					<FundStreamCode/>
+					<BonusAmount>0</BonusAmount>
+					<BonusIndexBasis>0</BonusIndexBasis>
+					<Volatility>0</Volatility>
+					<IndexMinFloor>0</IndexMinFloor>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.6046130</TimeStamp>
+					<FormatAmountProcessed>$(234.13)</FormatAmountProcessed>
+					<FormatBalanceAllocation>$1.00%</FormatBalanceAllocation>
+					<FormatFundBalance>$22,552.12</FormatFundBalance>
+					<FormatIndexThreshold>$0.00</FormatIndexThreshold>
+					<FormatIndexBasis>$0.00</FormatIndexBasis>
+					<FormatIndexCredit>$0.00</FormatIndexCredit>
+					<FormatInterest>$0.00</FormatInterest>
+					<FormatCumInterest>$0.00</FormatCumInterest>
+				</FundResultsDtlData>
+			</FundResultsDtlData>
+		</FundResultsDtl>
+		<TrxResUL>
+			<TrxResULData>
+				<TrxResULData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>a89ee1e4-2472-41f0-aa9e-cc1683e5bb9a</ID>
+					<GPTBasis>30000</GPTBasis>
+					<TamraTestBasis>30000</TamraTestBasis>
+					<TamraTestLimit>78016.92</TamraTestLimit>
+					<YTDInterestEarned>0</YTDInterestEarned>
+					<CumInterestEarned>0</CumInterestEarned>
+					<CostBasis>30000</CostBasis>
+					<CumulativeGLP>21053.07</CumulativeGLP>
+					<TrxResID>9753c4da-5c8c-4469-aa88-75089d248513</TrxResID>
+					<AmountWaived>0</AmountWaived>
+					<AltAmtWaived>0</AltAmtWaived>
+					<CumWithdrawals>0</CumWithdrawals>
+					<YTDWithdrawals>0</YTDWithdrawals>
+					<CumMinPrem>5984.5</CumMinPrem>
+					<RequiredAmtDue>0</RequiredAmtDue>
+					<PriorEOYAcctVal>12858.09</PriorEOYAcctVal>
+					<CumPartSurrCharges>0</CumPartSurrCharges>
+					<GuarCashValue>0</GuarCashValue>
+					<YTDGrossPremium>10000</YTDGrossPremium>
+					<CumGrossPremium>30000</CumGrossPremium>
+					<TamraTestYr>3</TamraTestYr>
+					<GPTestExcessPmt>0</GPTestExcessPmt>
+					<TamraTestExcessPmt>0</TamraTestExcessPmt>
+					<NextTamraTestAnniv>2024-06-15T00:00:00.0000000</NextTamraTestAnniv>
+					<TamraRIBTestPrem>10000</TamraRIBTestPrem>
+					<MECStatus id="00000000-0000-0000-0000-000000000001" code="NONMEC">Non-MEC</MECStatus>
+					<NonQABCharges>0</NonQABCharges>
+					<MinGPTestLimit>0</MinGPTestLimit>
+					<GPTestUpdate id="0">False</GPTestUpdate>
+					<TamraTestUpdate>0</TamraTestUpdate>
+					<GracePeriodEndDate>2400-12-31T00:00:00.0000000</GracePeriodEndDate>
+					<PriorEOYAltAcctVal>0</PriorEOYAltAcctVal>
+					<PremiumWaived>0</PremiumWaived>
+					<AltAcctValue>0</AltAcctValue>
+					<AltGrossSurrValue>0</AltGrossSurrValue>
+					<AltNetSurrValue>0</AltNetSurrValue>
+					<AltTotalChrgAmt>0</AltTotalChrgAmt>
+					<FaceAmount>375000</FaceAmount>
+					<GuarAcctValue>0</GuarAcctValue>
+					<GuarGrossSurrValue>0</GuarGrossSurrValue>
+					<GuarNetSurrValue>0</GuarNetSurrValue>
+					<GuarTotalChrgAmt>0</GuarTotalChrgAmt>
+					<ReqPremAccum>0</ReqPremAccum>
+					<ThreshPremAccum>0</ThreshPremAccum>
+					<CumAltGrossPremium>0</CumAltGrossPremium>
+					<CumAltNetPrem>0</CumAltNetPrem>
+					<CumAltPremCharges>0</CumAltPremCharges>
+					<CumNetPrem>26400</CumNetPrem>
+					<CumPremCharges>3600</CumPremCharges>
+					<YTDNetPrem>8800</YTDNetPrem>
+					<YTDPremCharges>1200</YTDPremCharges>
+					<YTDAltNetPrem>0</YTDAltNetPrem>
+					<YTDAltGrossPremium>0</YTDAltGrossPremium>
+					<AltCumUncollected>0</AltCumUncollected>
+					<GuarAccruedInterest>0</GuarAccruedInterest>
+					<YTDAdminCharges>0</YTDAdminCharges>
+					<YTDAltAdminCharges>0</YTDAltAdminCharges>
+					<YTDAltInterestEarned>0</YTDAltInterestEarned>
+					<YTDAltPremCharges>0</YTDAltPremCharges>
+					<YTDAltWithdrawals>0</YTDAltWithdrawals>
+					<PriorYTDGrossPrem>10000</PriorYTDGrossPrem>
+					<CVATFactor>2.36</CVATFactor>
+					<ReqLoanRepayDue>0</ReqLoanRepayDue>
+					<PriorMAVAcctValue>0</PriorMAVAcctValue>
+					<PriorMAVDeathBenefit>0</PriorMAVDeathBenefit>
+					<CumNLGPrem>0</CumNLGPrem>
+					<MinChrgAcctValue>0</MinChrgAcctValue>
+					<CumEOMAcctValue>0</CumEOMAcctValue>
+					<AccumGrossPremium>30000</AccumGrossPremium>
+					<AccumWithdrawals>0</AccumWithdrawals>
+					<NLGGraceEndDate>2023-08-15T00:00:00.0000000</NLGGraceEndDate>
+					<CumUnnecPremium>0</CumUnnecPremium>
+					<FaceAmtIncreaseInd id="0">False</FaceAmtIncreaseInd>
+					<DeemedCashValue>0</DeemedCashValue>
+					<NecPremTestNSP>0</NecPremTestNSP>
+					<NecPremLimit>0</NecPremLimit>
+					<MECTrxInd id="0">False</MECTrxInd>
+					<PriorAltCOIRate>0</PriorAltCOIRate>
+					<ReinsAmtDue>0</ReinsAmtDue>
+					<ReinsPremAmtDue>0</ReinsPremAmtDue>
+					<ReinsLoanRepayAmtDue>0</ReinsLoanRepayAmtDue>
+					<GLPAdj>0</GLPAdj>
+					<GSPAdj>0</GSPAdj>
+					<CumUncollectCOIChrg>0</CumUncollectCOIChrg>
+					<CumUncollectAdminChrg>0</CumUncollectAdminChrg>
+					<CumUncollectPer1000Chrg>0</CumUncollectPer1000Chrg>
+					<CumUncollectAVChrg>0</CumUncollectAVChrg>
+					<CumUncollectFlatExtra>0</CumUncollectFlatExtra>
+					<CumUncollectADBChrg>0</CumUncollectADBChrg>
+					<CumUncollectWMDChrg>0</CumUncollectWMDChrg>
+					<CumUncollectWSAChrg>0</CumUncollectWSAChrg>
+					<CumUncollectGIOChrg>0</CumUncollectGIOChrg>
+					<CumUncollectCTRChrg>0</CumUncollectCTRChrg>
+					<CumUncollectTLIRChrg>0</CumUncollectTLIRChrg>
+					<CumUncollectSTRChrg>0</CumUncollectSTRChrg>
+					<CumPriorBenReductions>0</CumPriorBenReductions>
+					<PendingNLGPrem>0</PendingNLGPrem>
+					<CYTDLTCBenCharges>0</CYTDLTCBenCharges>
+					<BasicFund>0</BasicFund>
+					<ExcessFund>0</ExcessFund>
+					<YTDAltAVToTrgtPrem>0</YTDAltAVToTrgtPrem>
+					<AltAVPremThrshldCurr>0</AltAVPremThrshldCurr>
+					<AltAVPremThrshldNext>0</AltAVPremThrshldNext>
+					<TrxPer1000Chrg>141.75</TrxPer1000Chrg>
+					<TrxCOIChrg>68.15</TrxCOIChrg>
+					<TrxAVChrg>0</TrxAVChrg>
+					<MECharge>0</MECharge>
+					<CumTotalChrgs>5566.59</CumTotalChrgs>
+					<PriorEOCYAcctValue>13987.86</PriorEOCYAcctValue>
+					<CYTDPremiums>10000</CYTDPremiums>
+					<CYTDWithdrawals>0</CYTDWithdrawals>
+					<CYTDTotalChrgs>1363.9</CYTDTotalChrgs>
+					<CumAVChrg>264.18</CumAVChrg>
+					<CumBaseCOIChrg>1608.66</CumBaseCOIChrg>
+					<CumPer1000Chrg>3543.75</CumPer1000Chrg>
+					<GraceAcctValue>0</GraceAcctValue>
+					<UnnecPremInd id="0">False</UnnecPremInd>
+					<UnnecPrem>0</UnnecPrem>
+					<UnnecGrossPrem>0</UnnecGrossPrem>
+					<TrxPolAdminFee>0</TrxPolAdminFee>
+					<TrxPVCharge>18.23</TrxPVCharge>
+					<IRCCorridorDB>0</IRCCorridorDB>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName/>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.5266210</TimeStamp>
+					<FormatYTDInterestEarned>$0.00</FormatYTDInterestEarned>
+					<FormatCumInterestEarned>$0.00</FormatCumInterestEarned>
+					<FormatCostBasis>$30,000.00</FormatCostBasis>
+					<FormatCumulativeGLP>$21,053.07</FormatCumulativeGLP>
+					<FormatAmountWaived>$0.00</FormatAmountWaived>
+					<FormatAltAmtWaived>$0.00</FormatAltAmtWaived>
+					<FormatCumWithdrawals>$0.00</FormatCumWithdrawals>
+					<FormatYTDWithdrawals>$0.00</FormatYTDWithdrawals>
+					<FormatCumMinPrem>$5,984.50</FormatCumMinPrem>
+					<FormatRequiredAmtDue>$0.00</FormatRequiredAmtDue>
+					<FormatCumPartSurrCharges>$0.00</FormatCumPartSurrCharges>
+					<FormatGuarCashValue>$0.00</FormatGuarCashValue>
+					<FormatYTDGrossPremium>$10,000.00</FormatYTDGrossPremium>
+					<FormatCumGrossPremium>$30,000.00</FormatCumGrossPremium>
+					<FormatNonQABCharges>$0.00</FormatNonQABCharges>
+					<FormatPriorEOYAltAcctVal>$0.00</FormatPriorEOYAltAcctVal>
+					<FormatAltAcctValue>$0.00</FormatAltAcctValue>
+					<FormatAltNetSurrValue>$0.00</FormatAltNetSurrValue>
+					<FormatAltTotalChrgAmt>$0.00</FormatAltTotalChrgAmt>
+					<FormatFaceAmount>$375,000.00</FormatFaceAmount>
+					<FormatGuarAcctValue>$0.00</FormatGuarAcctValue>
+					<FormatGuarGrossSurrValue>$0.00</FormatGuarGrossSurrValue>
+					<FormatGuarNetSurrValue>$0.00</FormatGuarNetSurrValue>
+					<FormatGuarTotalChrgAmt>$0.00</FormatGuarTotalChrgAmt>
+					<FormatReqPremAccum>$0.00</FormatReqPremAccum>
+					<FormatThreshPremAccum>$0.00</FormatThreshPremAccum>
+					<FormatCumAltGrossPremium>$0.00</FormatCumAltGrossPremium>
+					<FormatCumAltNetPrem>$0.00</FormatCumAltNetPrem>
+					<FormatCumAltPremCharges>$0.00</FormatCumAltPremCharges>
+					<FormatCumNetPrem>$26,400.00</FormatCumNetPrem>
+					<FormatCumPremCharges>$3,600.00</FormatCumPremCharges>
+					<FormatYTDNetPrem>$8,800.00</FormatYTDNetPrem>
+					<FormatYTDPremCharges>$1,200.00</FormatYTDPremCharges>
+					<FormatYTDAltNetPrem>$0.00</FormatYTDAltNetPrem>
+					<FormatYTDAltGrossPremium>$0.00</FormatYTDAltGrossPremium>
+					<FormatPriorYTDGrossPrem>$10,000.00</FormatPriorYTDGrossPrem>
+					<FormatReqLoanRepayDue>$0.00</FormatReqLoanRepayDue>
+					<FormatPriorMAVAcctValue>$0.00</FormatPriorMAVAcctValue>
+					<FormatPriorMAVDeathBenefit>$0.00</FormatPriorMAVDeathBenefit>
+					<FormatCumNLGPrem>$0.00</FormatCumNLGPrem>
+					<FormatMinChrgAcctValue>$0.00</FormatMinChrgAcctValue>
+					<FormatCumEOMAcctValue>$0.00</FormatCumEOMAcctValue>
+					<FormatAccumGrossPremium>$30,000.00</FormatAccumGrossPremium>
+					<FormatAccumWithdrawals>$0.00</FormatAccumWithdrawals>
+					<FormatCumUnnecPremium>$0.00</FormatCumUnnecPremium>
+					<FormatDeemedCashValue>$0.00</FormatDeemedCashValue>
+					<FormatNecPremTestNSP>$0.00</FormatNecPremTestNSP>
+					<FormatNecPremLimit>$0.00</FormatNecPremLimit>
+					<FormatPriorAltCOIRate>$0.00</FormatPriorAltCOIRate>
+					<FormatGLPAdj>$0.00</FormatGLPAdj>
+					<FormatGSPAdj>$0.00</FormatGSPAdj>
+					<FormatCumUncollectCOIChrg>$0.00</FormatCumUncollectCOIChrg>
+					<FormatCumUncollectAdminChrg>$0.00</FormatCumUncollectAdminChrg>
+					<FormatCumUncollectPer1000Chrg>$0.00</FormatCumUncollectPer1000Chrg>
+					<FormatCumUncollectAVChrg>$0.00</FormatCumUncollectAVChrg>
+					<FormatCumUncollectFlatExtra>$0.00</FormatCumUncollectFlatExtra>
+					<FormatCumUncollectADBChrg>$0.00</FormatCumUncollectADBChrg>
+					<FormatCumUncollectWMDChrg>$0.00</FormatCumUncollectWMDChrg>
+					<FormatCumUncollectWSAChrg>$0.00</FormatCumUncollectWSAChrg>
+					<FormatCumUncollectGIOChrg>$0.00</FormatCumUncollectGIOChrg>
+					<FormatCumUncollectCTRChrg>$0.00</FormatCumUncollectCTRChrg>
+					<FormatCumUncollectTLIRChrg>$0.00</FormatCumUncollectTLIRChrg>
+					<FormatCumUncollectSTRChrg>$0.00</FormatCumUncollectSTRChrg>
+					<FormatCumPriorBenReductions>$0.00</FormatCumPriorBenReductions>
+					<FormatPendingNLGPrem>$0.00</FormatPendingNLGPrem>
+					<FormatCYTDLTCBenCharges>$0.00</FormatCYTDLTCBenCharges>
+					<FormatBasicFund>$0.00</FormatBasicFund>
+					<FormatExcessFund>$0.00</FormatExcessFund>
+					<FormatYTDAltAVToTrgtPrem>$0.00</FormatYTDAltAVToTrgtPrem>
+					<FormatAltAVPremThrshldCurr>$0.00</FormatAltAVPremThrshldCurr>
+					<FormatAltAVPremThrshldNext>$0.00</FormatAltAVPremThrshldNext>
+					<FormatTrxPer1000Chrg>$141.75</FormatTrxPer1000Chrg>
+					<FormatTrxCOIChrg>$68.15</FormatTrxCOIChrg>
+					<FormatTrxAVChrg>$0.00</FormatTrxAVChrg>
+					<FormatMECharge>$0.00</FormatMECharge>
+					<FormatCumTotalChrgs>$5,566.59</FormatCumTotalChrgs>
+					<FormatPriorEOCYAcctValue>$13,987.86</FormatPriorEOCYAcctValue>
+					<FormatCYTDPremiums>$10,000.00</FormatCYTDPremiums>
+					<FormatCYTDWithdrawals>$0.00</FormatCYTDWithdrawals>
+					<FormatCYTDTotalChrgs>$1,363.90</FormatCYTDTotalChrgs>
+					<FormatCumAVChrg>$264.18</FormatCumAVChrg>
+					<FormatCumBaseCOIChrg>$1,608.66</FormatCumBaseCOIChrg>
+					<FormatCumPer1000Chrg>$3,543.75</FormatCumPer1000Chrg>
+					<FormatGraceAcctValue>$0.00</FormatGraceAcctValue>
+					<FormatUnnecPrem>$0.00</FormatUnnecPrem>
+					<FormatUnnecGrossPrem>$0.00</FormatUnnecGrossPrem>
+					<FormatTrxPolAdminFee>$0.00</FormatTrxPolAdminFee>
+					<FormatTrxPVCharge>$18.23</FormatTrxPVCharge>
+					<FormatIRCCorridorDB>$0.00</FormatIRCCorridorDB>
+				</TrxResULData>
+			</TrxResULData>
+		</TrxResUL>
+		<PolicyCovHdr>
+			<PolicyCovHdrData>
+				<PolicyCovHdrData>
+					<ChangeType>-1</ChangeType>
+					<CoreMessageObjectArray>
+						<HasMessage>False</HasMessage>
+						<Message/>
+						<MessageCode/>
+						<Severity>0</Severity>
+					</CoreMessageObjectArray>
+					<ID>65c42ada-f309-457d-9393-944489eb3a67</ID>
+					<Sequence>1</Sequence>
+					<PolicyHdrID>972f5efb-17ee-4ffe-b629-fa6f96f986e0</PolicyHdrID>
+					<PlanCode>MIUL22</PlanCode>
+					<Status id="00000000-0000-0000-0000-000000000004" code="22">Active</Status>
+					<Gender id="00000000-0000-0000-0000-000000000001" code="M">Male</Gender>
+					<DOB>1981-05-01T00:00:00.0000000</DOB>
+					<IssueAge>40</IssueAge>
+					<IssueDate>2021-06-15T00:00:00.0000000</IssueDate>
+					<MatureExpiryDate>2102-06-15T00:00:00.0000000</MatureExpiryDate>
+					<RateClass>NT</RateClass>
+					<SmokerStatus id="00000000-0000-0000-0000-000000000002" code="NT">Non Tobacco</SmokerStatus>
+					<Band id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<StartDate>2021-06-15T00:00:00.0000000</StartDate>
+					<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+					<EffectiveDate>2021-06-15T00:00:00.0000000</EffectiveDate>
+					<TerminationDate>2999-12-31T00:00:00.0000000</TerminationDate>
+					<FormNum>0</FormNum>
+					<LOB id="00000000-0000-0000-0000-000000000004" code="U">Universal Life</LOB>
+					<TrxHdrID>d08fa20a-ab81-4e43-a0fd-40ce7555f021</TrxHdrID>
+					<WriteOpt id="00000000-0000-0000-0000-000000000003" code="Update">Update</WriteOpt>
+					<IsBaseCoverage id="1">True</IsBaseCoverage>
+					<CovType>BasePolicyCov_Common</CovType>
+					<CovOption>BaseCovgUL</CovOption>
+					<COI/>
+					<Amount>0</Amount>
+					<SubstandardCode>STD</SubstandardCode>
+					<ProcessRestrict id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<FaceAmount>375000</FaceAmount>
+					<TableRating/>
+					<PayorAge>0</PayorAge>
+					<PayorGender id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<QuoteClaimAmt>0</QuoteClaimAmt>
+					<ClaimAmt>0</ClaimAmt>
+					<NewFaceAmount>0</NewFaceAmount>
+					<NewSmokerStatus id="" code=""/>
+					<NewRateClass/>
+					<NewFlatExtraAmt>0</NewFlatExtraAmt>
+					<NewFlatExtraYear>0</NewFlatExtraYear>
+					<NewTableRating/>
+					<Terminated id="0">False</Terminated>
+					<ShortName>WealthAccelerate Base Plan</ShortName>
+					<JointInsDOB>1900-01-01T00:00:00.0000000</JointInsDOB>
+					<JointInsIssueAge>0</JointInsIssueAge>
+					<JointInsGender id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<JointInsRateClass/>
+					<JointInsSmokerStatus id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<Decision id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<DecisionComment/>
+					<Reason id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+					<RetirementAge>0</RetirementAge>
+					<PlanDescription>WealthAccelerate Base Plan</PlanDescription>
+					<NewIssueAge>0</NewIssueAge>
+					<NewGender id="" code=""/>
+					<NewDOB>1900-01-01T00:00:00.0000000</NewDOB>
+					<NewDeathBenOpt/>
+					<NewPUIPremAmount>0</NewPUIPremAmount>
+					<IsBaseClaim id="1">True</IsBaseClaim>
+					<IsPartofClaim id="0">False</IsPartofClaim>
+					<NextPremAdjDate>1900-01-01T00:00:00.0000000</NextPremAdjDate>
+					<CommType/>
+					<CommSubType/>
+					<CovDesc/>
+					<OriginalRateClass>NT</OriginalRateClass>
+					<NewCovOption/>
+					<EntityStatus id="0">False</EntityStatus>
+					<DisplayFieldName>MIUL22,6/15/2102 12:00:00 AM,,0Active</DisplayFieldName>
+					<UserID>00000000-0000-0000-0000-000000000120</UserID>
+					<TimeStamp>2022-06-08T03:25:52.7516180</TimeStamp>
+					<FormatAmount>$0.00</FormatAmount>
+					<FormatFaceAmount>$375,000.00</FormatFaceAmount>
+					<FormatQuoteClaimAmt>$0.00</FormatQuoteClaimAmt>
+					<FormatClaimAmt>$0.00</FormatClaimAmt>
+					<FormatNewFaceAmount>$0.00</FormatNewFaceAmount>
+					<FormatNewFlatExtraAmt>$0.00</FormatNewFlatExtraAmt>
+				</PolicyCovHdrData>
+			</PolicyCovHdrData>
+			<PolicyCovHdrPartyRole>
+				<PolicyCovHdrPartyRoleData>
+					<PolicyCovHdrPartyRoleData>
+						<ChangeType>-1</ChangeType>
+						<CoreMessageObjectArray>
+							<HasMessage>False</HasMessage>
+							<Message/>
+							<MessageCode/>
+							<Severity>0</Severity>
+						</CoreMessageObjectArray>
+						<PolicyCovHdrID>65c42ada-f309-457d-9393-944489eb3a67</PolicyCovHdrID>
+						<PartyID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</PartyID>
+						<RoleID>00000000-0000-0000-0000-000000000118</RoleID>
+						<Percentage>1</Percentage>
+						<Amount/>
+						<Relationship/>
+						<StartDate>2021-06-15T00:00:00.0000000</StartDate>
+						<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+						<DisplayFieldName/>
+						<ImageLoc/>
+						<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+						<TimeStamp>2022-06-08T03:08:38.2394920</TimeStamp>
+					</PolicyCovHdrPartyRoleData>
+				</PolicyCovHdrPartyRoleData>
+				<xml>
+					<Party>
+						<PartyData>
+							<PartyData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</ID>
+								<PartyTypeCode id="00000000-0000-0000-0000-000000000001" code="1">Person</PartyTypeCode>
+								<FullName>Cheryr L Blake</FullName>
+								<GovtID>374657890</GovtID>
+								<GovtIDTC id="00000000-0000-0000-0000-000000000001" code="1">Social Security Number (US)</GovtIDTC>
+								<GovtIDStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<CurrencyCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<PrefComm id="00000000-0000-0000-0000-000000000007" code="0">Unknown</PrefComm>
+								<WithholdingRequiredInd id="0">False</WithholdingRequiredInd>
+								<HomePhone/>
+								<CellPhone/>
+								<BusinessPhone/>
+								<EmailAddress/>
+								<EmailAddress2/>
+								<Fax/>
+								<PreferredLanguage id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<GroupNum>0</GroupNum>
+								<Electronic1099 id="0">False</Electronic1099>
+								<Electronic1099Date>1900-01-01T00:00:00.0000000</Electronic1099Date>
+								<TaxDtlID>ffffffff-ffff-ffff-ffff-ffffffffffff</TaxDtlID>
+								<Pin>7890</Pin>
+								<SecHomePhone/>
+								<HomeFax/>
+								<DoNotCall id="0">False</DoNotCall>
+								<SpouseContractNum/>
+								<ExternalID/>
+								<HumanAPIID/>
+								<LastContactDate>1900-01-01T00:00:00.0000000</LastContactDate>
+								<FedWitholdAllowance>0</FedWitholdAllowance>
+								<StateExemptions>0</StateExemptions>
+								<GovtIDStatDate>1900-01-01T00:00:00.0000000</GovtIDStatDate>
+								<PrivacyOptIn id="0">False</PrivacyOptIn>
+								<PreviousNames/>
+								<HouseholdNumber/>
+								<PriorAddress/>
+								<PriorResYearsAtLocation>0</PriorResYearsAtLocation>
+								<CustomerStatusCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<RequiresReconciliation id="0">False</RequiresReconciliation>
+								<OtherIDTC id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<OtherID/>
+								<IssueState id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<IssueCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ExpirationDate>1900-01-01T00:00:00.0000000</ExpirationDate>
+								<FacebookLink/>
+								<LinkedinLink/>
+								<TwitterLink/>
+								<CustomerID>66258247</CustomerID>
+								<CustomerAccountID>60054947</CustomerAccountID>
+								<CareProviAssesmtRecv id="0">False</CareProviAssesmtRecv>
+								<LicenseNumber/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Cheryr L Blake,374657890</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:56:10.6941820</TimeStamp>
+							</PartyData>
+						</PartyData>
+					</Party>
+					<Person>
+						<PersonData>
+							<PersonData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>7d3c3281-a066-41bd-b9e9-e1750fec577b</ID>
+								<PartyID>be5b0aed-5c64-4222-bc51-5dfd5d707a14</PartyID>
+								<Prefix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<FirstName>Cheryr</FirstName>
+								<MiddleName>L</MiddleName>
+								<LastName>Blake</LastName>
+								<Suffix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SSN/>
+								<BirthDate>1981-05-01T00:00:00.0000000</BirthDate>
+								<Age>41</Age>
+								<Gender id="00000000-0000-0000-0000-000000000001" code="M">Male</Gender>
+								<MarStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SpousesName/>
+								<PaymentFormID id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoFree>1900-01-01T00:00:00.0000000</TobaccoFree>
+								<SmokerStatus id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyMode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyNumber>0</SmokingFrequencyNumber>
+								<DriversLicenseNum/>
+								<DriversLicenseCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<DriverLicStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ProfileUrl/>
+								<BirthCountry id="00000000-0000-0000-0000-000000000001" code="1">United States of America</BirthCountry>
+								<Citizenship id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Occupation/>
+								<EmployerName/>
+								<NetIncomeAmt/>
+								<NetSavingsAmt/>
+								<MaidenName/>
+								<NBQuoteID>ffffffff-ffff-ffff-ffff-ffffffffffff</NBQuoteID>
+								<Salary>0</Salary>
+								<Title/>
+								<RetirementAge>0</RetirementAge>
+								<USStateOfBirth id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<USArmedForces id="0">False</USArmedForces>
+								<DriversLicenseExpiryDate>1900-01-01T00:00:00.0000000</DriversLicenseExpiryDate>
+								<AlienRegistrationNumber/>
+								<Height/>
+								<Weight/>
+								<FraternalChapter/>
+								<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+								<ImageLoc/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Cheryr,L,Blake</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:36.6180290</TimeStamp>
+								<FormatSSN>--</FormatSSN>
+							</PersonData>
+						</PersonData>
+					</Person>
+					<Address>
+						<AddressData>
+							<AddressData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>369a31e7-fc4c-4044-bc56-e72aebeb4889</ID>
+								<AddressType id="00000000-0000-0000-0000-000000000001" code="HO">Home</AddressType>
+								<Line1>110 FIELDCREST ST</Line1>
+								<Line2/>
+								<Line3/>
+								<Line4/>
+								<City>EDISON</City>
+								<Country id="00000000-0000-0000-0000-000000000001" code="1">United States of America</Country>
+								<AddressState id="00000000-0000-0000-0000-000000000008" code="OLI_USA_CT">CT</AddressState>
+								<County id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Zip>08837</Zip>
+								<ZipPlusFour/>
+								<CopyAddressInd id="0">False</CopyAddressInd>
+								<MailingAddressInd id="1">True</MailingAddressInd>
+								<ChangeAddressInd id="0">False</ChangeAddressInd>
+								<OverrideCorrespondenceInd id="0">False</OverrideCorrespondenceInd>
+								<BadAddressInd id="0">False</BadAddressInd>
+								<NCOA id="0">False</NCOA>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>110 FIELDCREST ST,EDISON,08837,FalseHomeUnited States of AmericaCT</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:36.7420310</TimeStamp>
+								<FormatZip>-8837</FormatZip>
+							</AddressData>
+						</AddressData>
+					</Address>
+				</xml>
+				<Role>
+					<RoleData>
+						<RoleData>
+							<ChangeType>2</ChangeType>
+							<CoreMessageObjectArray>
+								<HasMessage>False</HasMessage>
+								<Message/>
+								<MessageCode/>
+								<Severity>0</Severity>
+							</CoreMessageObjectArray>
+							<ID>00000000-0000-0000-0000-000000000118</ID>
+							<Code>32</Code>
+							<Name>OLI_REL_INSURED</Name>
+							<System id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+							<Description>Insured</Description>
+							<MultipleAllowed id="0">False</MultipleAllowed>
+							<PercentageAddup id="0">False</PercentageAddup>
+							<LifeApplicable id="1">True</LifeApplicable>
+							<AnnApplicable id="0">False</AnnApplicable>
+							<RoleType id="00000000-0000-0000-0000-000000000001" code="Insured">Insured</RoleType>
+							<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+							<ImageLoc/>
+							<EntityStatus id="0">False</EntityStatus>
+							<DisplayFieldName>Insured</DisplayFieldName>
+						</RoleData>
+					</RoleData>
+				</Role>
+			</PolicyCovHdrPartyRole>
+			<PolicyCovHdrPartyRole>
+				<PolicyCovHdrPartyRoleData>
+					<PolicyCovHdrPartyRoleData>
+						<ChangeType>-1</ChangeType>
+						<CoreMessageObjectArray>
+							<HasMessage>False</HasMessage>
+							<Message/>
+							<MessageCode/>
+							<Severity>0</Severity>
+						</CoreMessageObjectArray>
+						<PolicyCovHdrID>65c42ada-f309-457d-9393-944489eb3a67</PolicyCovHdrID>
+						<PartyID>fcad65ff-dc5b-4c28-9a1b-1f91ab36605b</PartyID>
+						<RoleID>00000000-0000-0000-0000-000000000033</RoleID>
+						<Percentage>1</Percentage>
+						<Amount/>
+						<Relationship/>
+						<StartDate>2021-06-15T00:00:00.0000000</StartDate>
+						<EndDate>2999-12-31T00:00:00.0000000</EndDate>
+						<DisplayFieldName/>
+						<ImageLoc/>
+						<UserID>778d8a58-6437-4b0e-9276-1c85d5ff0aa9</UserID>
+						<TimeStamp>2022-06-08T03:08:38.2394920</TimeStamp>
+					</PolicyCovHdrPartyRoleData>
+				</PolicyCovHdrPartyRoleData>
+				<xml>
+					<Party>
+						<PartyData>
+							<PartyData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>fcad65ff-dc5b-4c28-9a1b-1f91ab36605b</ID>
+								<PartyTypeCode id="00000000-0000-0000-0000-000000000001" code="1">Person</PartyTypeCode>
+								<FullName>Patricer A Blairz</FullName>
+								<GovtID>273646000</GovtID>
+								<GovtIDTC id="00000000-0000-0000-0000-000000000001" code="1">Social Security Number (US)</GovtIDTC>
+								<GovtIDStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<CurrencyCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<PrefComm id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<WithholdingRequiredInd id="0">False</WithholdingRequiredInd>
+								<HomePhone/>
+								<CellPhone/>
+								<BusinessPhone/>
+								<EmailAddress/>
+								<EmailAddress2/>
+								<Fax/>
+								<PreferredLanguage id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<GroupNum>0</GroupNum>
+								<Electronic1099 id="0">False</Electronic1099>
+								<Electronic1099Date>1900-01-01T00:00:00.0000000</Electronic1099Date>
+								<TaxDtlID>ffffffff-ffff-ffff-ffff-ffffffffffff</TaxDtlID>
+								<Pin>6000</Pin>
+								<SecHomePhone/>
+								<HomeFax/>
+								<DoNotCall id="0">False</DoNotCall>
+								<SpouseContractNum/>
+								<ExternalID/>
+								<HumanAPIID/>
+								<LastContactDate>1900-01-01T00:00:00.0000000</LastContactDate>
+								<FedWitholdAllowance>0</FedWitholdAllowance>
+								<StateExemptions>0</StateExemptions>
+								<GovtIDStatDate>1900-01-01T00:00:00.0000000</GovtIDStatDate>
+								<PrivacyOptIn id="0">False</PrivacyOptIn>
+								<PreviousNames/>
+								<HouseholdNumber/>
+								<PriorAddress/>
+								<PriorResYearsAtLocation>0</PriorResYearsAtLocation>
+								<CustomerStatusCode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<RequiresReconciliation id="0">False</RequiresReconciliation>
+								<OtherIDTC id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<OtherID/>
+								<IssueState id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<IssueCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ExpirationDate>1900-01-01T00:00:00.0000000</ExpirationDate>
+								<FacebookLink/>
+								<LinkedinLink/>
+								<TwitterLink/>
+								<CustomerID/>
+								<CustomerAccountID/>
+								<CareProviAssesmtRecv id="0">False</CareProviAssesmtRecv>
+								<LicenseNumber/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Patricer A Blairz,273646000</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:37.6170460</TimeStamp>
+							</PartyData>
+						</PartyData>
+					</Party>
+					<Person>
+						<PersonData>
+							<PersonData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>8b5784d4-ff45-4109-a516-9e589c1445b3</ID>
+								<PartyID>fcad65ff-dc5b-4c28-9a1b-1f91ab36605b</PartyID>
+								<Prefix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<FirstName>Patricer</FirstName>
+								<MiddleName>A</MiddleName>
+								<LastName>Blairz</LastName>
+								<Suffix id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SSN/>
+								<BirthDate>1989-04-07T00:00:00.0000000</BirthDate>
+								<Age>33</Age>
+								<Gender id="00000000-0000-0000-0000-000000000002" code="F">Female</Gender>
+								<MarStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SpousesName/>
+								<PaymentFormID id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoType id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<TobaccoFree>1900-01-01T00:00:00.0000000</TobaccoFree>
+								<SmokerStatus id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyMode id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<SmokingFrequencyNumber>0</SmokingFrequencyNumber>
+								<DriversLicenseNum/>
+								<DriversLicenseCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<DriverLicStat id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<ProfileUrl/>
+								<BirthCountry id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Citizenship id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Occupation/>
+								<EmployerName/>
+								<NetIncomeAmt/>
+								<NetSavingsAmt/>
+								<MaidenName/>
+								<NBQuoteID>ffffffff-ffff-ffff-ffff-ffffffffffff</NBQuoteID>
+								<Salary>0</Salary>
+								<Title/>
+								<RetirementAge>0</RetirementAge>
+								<USStateOfBirth id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<USArmedForces id="0">False</USArmedForces>
+								<DriversLicenseExpiryDate>1900-01-01T00:00:00.0000000</DriversLicenseExpiryDate>
+								<AlienRegistrationNumber/>
+								<Height/>
+								<Weight/>
+								<FraternalChapter/>
+								<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+								<ImageLoc/>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>Patricer,A,Blairz</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:37.6300550</TimeStamp>
+								<FormatSSN>--</FormatSSN>
+							</PersonData>
+						</PersonData>
+					</Person>
+					<Address>
+						<AddressData>
+							<AddressData>
+								<ChangeType>-1</ChangeType>
+								<CoreMessageObjectArray>
+									<HasMessage>False</HasMessage>
+									<Message/>
+									<MessageCode/>
+									<Severity>0</Severity>
+								</CoreMessageObjectArray>
+								<ID>19cff47e-7339-4994-8eeb-e4e484daf88e</ID>
+								<AddressType id="00000000-0000-0000-0000-000000000001" code="HO">Home</AddressType>
+								<Line1>19 Huntington Drive</Line1>
+								<Line2>Shore Lane Apartments</Line2>
+								<Line3/>
+								<Line4/>
+								<City>Arcola</City>
+								<Country id="00000000-0000-0000-0000-000000000001" code="1">United States of America</Country>
+								<AddressState id="00000000-0000-0000-0000-000000000035" code="OLI_USA_NJ">NJ</AddressState>
+								<County id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+								<Zip>20107</Zip>
+								<ZipPlusFour/>
+								<CopyAddressInd id="0">False</CopyAddressInd>
+								<MailingAddressInd id="1">True</MailingAddressInd>
+								<ChangeAddressInd id="0">False</ChangeAddressInd>
+								<OverrideCorrespondenceInd id="0">False</OverrideCorrespondenceInd>
+								<BadAddressInd id="0">False</BadAddressInd>
+								<NCOA id="0">False</NCOA>
+								<EntityStatus id="0">False</EntityStatus>
+								<DisplayFieldName>19 Huntington Drive,Arcola,20107,FalseHomeUnited States of AmericaNJ</DisplayFieldName>
+								<UserID>00000000-0000-0000-0000-000000000005</UserID>
+								<TimeStamp>2022-06-07T17:55:37.6370590</TimeStamp>
+								<FormatZip>2-0107</FormatZip>
+							</AddressData>
+						</AddressData>
+					</Address>
+				</xml>
+				<Role>
+					<RoleData>
+						<RoleData>
+							<ChangeType>2</ChangeType>
+							<CoreMessageObjectArray>
+								<HasMessage>False</HasMessage>
+								<Message/>
+								<MessageCode/>
+								<Severity>0</Severity>
+							</CoreMessageObjectArray>
+							<ID>00000000-0000-0000-0000-000000000033</ID>
+							<Code>34</Code>
+							<Name>OLI_REL_BENEFICIARY</Name>
+							<System id="ffffffff-ffff-ffff-ffff-ffffffffffff" code=""/>
+							<Description>Principal Beneficiary</Description>
+							<MultipleAllowed id="1">True</MultipleAllowed>
+							<PercentageAddup id="1">True</PercentageAddup>
+							<LifeApplicable id="1">True</LifeApplicable>
+							<AnnApplicable id="0">False</AnnApplicable>
+							<RoleType id="00000000-0000-0000-0000-000000000003" code="Beneficiary">Beneficiary</RoleType>
+							<Image>ffffffff-ffff-ffff-ffff-ffffffffffff</Image>
+							<ImageLoc/>
+							<EntityStatus id="0">False</EntityStatus>
+							<DisplayFieldName>Principal Beneficiary</DisplayFieldName>
+						</RoleData>
+					</RoleData>
+				</Role>
+			</PolicyCovHdrPartyRole>
+		</PolicyCovHdr>
+	</PayLoad>
+</xml>

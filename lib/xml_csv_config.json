@@ -1,0 +1,4 @@
+{
+	"filter_query":"(select * from {0}.FIN_TRANS_VAL where src_sys = '{1}') FQ"
+}
+
